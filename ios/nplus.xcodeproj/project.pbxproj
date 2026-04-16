@@ -1,0 +1,1569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011250572DFA10BC005B9EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		0112505B2DFA10BC005B9EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0112505C2DFA10BC005B9EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		0112505D2DFA10BC005B9EBC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0112505E2DFA10BC005B9EBC /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE44FCBA17940B5842D509D /* NotoSerif_ExtraCondensed-Bold.ttf */; };
+		0112505F2DFA10BC005B9EBC /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5700876FBC4AACB49BC8DD /* NotoSerif_ExtraCondensed-Regular.ttf */; };
+		011250602DFA10BC005B9EBC /* FranklinGothicURW-Boo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210BF75D17AB4056B88F8E78 /* FranklinGothicURW-Boo.otf */; };
+		011250612DFA10BC005B9EBC /* FranklinGothicURW-Dem.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5527926FB71F44E996D8D84A /* FranklinGothicURW-Dem.otf */; };
+		011250622DFA10BC005B9EBC /* FranklinGothicURW-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = B250564B4223427A82A536BC /* FranklinGothicURW-Med.otf */; };
+		011250632DFA10BC005B9EBC /* Mongoose-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80B91178ABED4C8EB85565B2 /* Mongoose-Medium.otf */; };
+		011250642DFA10BC005B9EBC /* Superclarendon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AAEE35046D42DEAF0C4FEA /* Superclarendon-Light.otf */; };
+		011250652DFA10BC005B9EBC /* Superclarendon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B72C00EBAC464B11A7E2BBA8 /* Superclarendon-Regular.otf */; };
+		011250662DFA10BC005B9EBC /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBB25148B0474FEA94F39ADC /* NotoSerif-Bold.ttf */; };
+		011250672DFA10BC005B9EBC /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875DDFC774A04386BA676497 /* NotoSerif-Regular.ttf */; };
+		011250732DFA10D1005B9EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		011250772DFA10D1005B9EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		011250782DFA10D1005B9EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		011250792DFA10D1005B9EBC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0112507A2DFA10D1005B9EBC /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE44FCBA17940B5842D509D /* NotoSerif_ExtraCondensed-Bold.ttf */; };
+		0112507B2DFA10D1005B9EBC /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5700876FBC4AACB49BC8DD /* NotoSerif_ExtraCondensed-Regular.ttf */; };
+		0112507C2DFA10D1005B9EBC /* FranklinGothicURW-Boo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210BF75D17AB4056B88F8E78 /* FranklinGothicURW-Boo.otf */; };
+		0112507D2DFA10D1005B9EBC /* FranklinGothicURW-Dem.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5527926FB71F44E996D8D84A /* FranklinGothicURW-Dem.otf */; };
+		0112507E2DFA10D1005B9EBC /* FranklinGothicURW-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = B250564B4223427A82A536BC /* FranklinGothicURW-Med.otf */; };
+		0112507F2DFA10D1005B9EBC /* Mongoose-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80B91178ABED4C8EB85565B2 /* Mongoose-Medium.otf */; };
+		011250802DFA10D1005B9EBC /* Superclarendon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AAEE35046D42DEAF0C4FEA /* Superclarendon-Light.otf */; };
+		011250812DFA10D1005B9EBC /* Superclarendon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B72C00EBAC464B11A7E2BBA8 /* Superclarendon-Regular.otf */; };
+		011250822DFA10D1005B9EBC /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBB25148B0474FEA94F39ADC /* NotoSerif-Bold.ttf */; };
+		011250832DFA10D1005B9EBC /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875DDFC774A04386BA676497 /* NotoSerif-Regular.ttf */; };
+		0112508F2DFA10DA005B9EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		011250932DFA10DA005B9EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		011250942DFA10DA005B9EBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		011250952DFA10DA005B9EBC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		011250962DFA10DA005B9EBC /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE44FCBA17940B5842D509D /* NotoSerif_ExtraCondensed-Bold.ttf */; };
+		011250972DFA10DA005B9EBC /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5700876FBC4AACB49BC8DD /* NotoSerif_ExtraCondensed-Regular.ttf */; };
+		011250982DFA10DA005B9EBC /* FranklinGothicURW-Boo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210BF75D17AB4056B88F8E78 /* FranklinGothicURW-Boo.otf */; };
+		011250992DFA10DA005B9EBC /* FranklinGothicURW-Dem.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5527926FB71F44E996D8D84A /* FranklinGothicURW-Dem.otf */; };
+		0112509A2DFA10DA005B9EBC /* FranklinGothicURW-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = B250564B4223427A82A536BC /* FranklinGothicURW-Med.otf */; };
+		0112509B2DFA10DA005B9EBC /* Mongoose-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80B91178ABED4C8EB85565B2 /* Mongoose-Medium.otf */; };
+		0112509C2DFA10DA005B9EBC /* Superclarendon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AAEE35046D42DEAF0C4FEA /* Superclarendon-Light.otf */; };
+		0112509D2DFA10DA005B9EBC /* Superclarendon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B72C00EBAC464B11A7E2BBA8 /* Superclarendon-Regular.otf */; };
+		0112509E2DFA10DA005B9EBC /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBB25148B0474FEA94F39ADC /* NotoSerif-Bold.ttf */; };
+		0112509F2DFA10DA005B9EBC /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875DDFC774A04386BA676497 /* NotoSerif-Regular.ttf */; };
+		08FFE2A82F4F00ADB83964C4 /* Pods_nplus_nplusDevelopment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A476C54A1A4681F4F12662B /* Pods_nplus_nplusDevelopment.framework */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1F80878DD916DC6F075CA4D9 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		2C24A6CBED114C7FB3E0F83F /* FranklinGothicURW-Boo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210BF75D17AB4056B88F8E78 /* FranklinGothicURW-Boo.otf */; };
+		38E3B803110949A3A4E21216 /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE5700876FBC4AACB49BC8DD /* NotoSerif_ExtraCondensed-Regular.ttf */; };
+		3E082AA9F5134FAD8F14FAFF /* FranklinGothicURW-MedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D576837AF5D4AA28F67737A /* FranklinGothicURW-MedIta.otf */; };
+		43037C085F950512048B94F5 /* Pods_nplus_nplusStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF41FE6881E0561AD840EEC /* Pods_nplus_nplusStaging.framework */; };
+		440B7948F6814BB5AA9804F0 /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE44FCBA17940B5842D509D /* NotoSerif_ExtraCondensed-Bold.ttf */; };
+		51307134392C4F8C90A7B17D /* Superclarendon-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AAEE35046D42DEAF0C4FEA /* Superclarendon-Light.otf */; };
+		5E1B386C8509473EB233EC1B /* FranklinGothicURW-Dem.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5527926FB71F44E996D8D84A /* FranklinGothicURW-Dem.otf */; };
+		68713866C56C4A34BAD98D4B /* Mongoose-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80B91178ABED4C8EB85565B2 /* Mongoose-Medium.otf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83D23AE7087D567F9935BC69 /* RNGAMBannerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FFED3F03B3B2F0E6125D6 /* RNGAMBannerViewManager.swift */; };
+		83D23AE7087D567F9935BC6A /* RNGAMBannerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FFED3F03B3B2F0E6125D6 /* RNGAMBannerViewManager.swift */; };
+		83D23AE7087D567F9935BC6B /* RNGAMBannerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FFED3F03B3B2F0E6125D6 /* RNGAMBannerViewManager.swift */; };
+		83D23AE7087D567F9935BC6C /* RNGAMBannerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FFED3F03B3B2F0E6125D6 /* RNGAMBannerViewManager.swift */; };
+		8E862BDEA55303731C0CFC36 /* Pods_nplus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C381B8CCF3E50895B70F84FF /* Pods_nplus.framework */; };
+		93F7D904595C48D4B76C6139 /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 875DDFC774A04386BA676497 /* NotoSerif-Regular.ttf */; };
+		9D9EDAF7939B4F9AA41F009D /* FranklinGothicURW-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = B250564B4223427A82A536BC /* FranklinGothicURW-Med.otf */; };
+		AFB17FAB599B828398A4C500 /* RNGAMBannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A19ABCC2F9152EDEF3170B41 /* RNGAMBannerViewManager.m */; };
+		AFB17FAB599B828398A4C501 /* RNGAMBannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A19ABCC2F9152EDEF3170B41 /* RNGAMBannerViewManager.m */; };
+		AFB17FAB599B828398A4C502 /* RNGAMBannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A19ABCC2F9152EDEF3170B41 /* RNGAMBannerViewManager.m */; };
+		AFB17FAB599B828398A4C503 /* RNGAMBannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A19ABCC2F9152EDEF3170B41 /* RNGAMBannerViewManager.m */; };
+		B251371F61414AECAD05815B /* Superclarendon-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B72C00EBAC464B11A7E2BBA8 /* Superclarendon-Regular.otf */; };
+		CE28E5F32F1EB459000F131E /* NotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F22F1EB459000F131E /* NotificationBridge.swift */; };
+		CE28E5F42F1EB459000F131E /* NotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F22F1EB459000F131E /* NotificationBridge.swift */; };
+		CE28E5F52F1EB459000F131E /* NotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F22F1EB459000F131E /* NotificationBridge.swift */; };
+		CE28E5F62F1EB459000F131E /* NotificationBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F22F1EB459000F131E /* NotificationBridge.swift */; };
+		CE28E5F82F1EB4AB000F131E /* NotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F72F1EB4AB000F131E /* NotificationBridge.m */; };
+		CE28E5F92F1EB4AB000F131E /* NotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F72F1EB4AB000F131E /* NotificationBridge.m */; };
+		CE28E5FA2F1EB4AB000F131E /* NotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F72F1EB4AB000F131E /* NotificationBridge.m */; };
+		CE28E5FB2F1EB4AB000F131E /* NotificationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28E5F72F1EB4AB000F131E /* NotificationBridge.m */; };
+		CE61D7682EF0787000F62E50 /* nplus/AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CE61D7672EF0787000F62E50 /* nplus/AppIcon.icon */; };
+		CE61D7692EF0787000F62E50 /* nplus/AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CE61D7672EF0787000F62E50 /* nplus/AppIcon.icon */; };
+		CE61D76A2EF0787000F62E50 /* nplus/AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CE61D7672EF0787000F62E50 /* nplus/AppIcon.icon */; };
+		CE61D76B2EF0787000F62E50 /* nplus/AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = CE61D7672EF0787000F62E50 /* nplus/AppIcon.icon */; };
+		CE71EB662E6DD6E5002AA92F /* FranklinGothicURW-BooIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD98789599C46FEBA92E967 /* FranklinGothicURW-BooIta.otf */; };
+		CE71EB672E6DD6E5002AA92F /* FranklinGothicURW-BooIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD98789599C46FEBA92E967 /* FranklinGothicURW-BooIta.otf */; };
+		CE71EB682E6DD6E5002AA92F /* FranklinGothicURW-BooIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD98789599C46FEBA92E967 /* FranklinGothicURW-BooIta.otf */; };
+		CE71EB692E6DD6EA002AA92F /* FranklinGothicURW-DemIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 122567FBA9FF4B5A8BE732CB /* FranklinGothicURW-DemIta.otf */; };
+		CE71EB6A2E6DD6EA002AA92F /* FranklinGothicURW-DemIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 122567FBA9FF4B5A8BE732CB /* FranklinGothicURW-DemIta.otf */; };
+		CE71EB6B2E6DD6EA002AA92F /* FranklinGothicURW-DemIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 122567FBA9FF4B5A8BE732CB /* FranklinGothicURW-DemIta.otf */; };
+		CE71EB6C2E6DD6EF002AA92F /* FranklinGothicURW-MedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D576837AF5D4AA28F67737A /* FranklinGothicURW-MedIta.otf */; };
+		CE71EB6D2E6DD6EF002AA92F /* FranklinGothicURW-MedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D576837AF5D4AA28F67737A /* FranklinGothicURW-MedIta.otf */; };
+		CE71EB6E2E6DD6EF002AA92F /* FranklinGothicURW-MedIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D576837AF5D4AA28F67737A /* FranklinGothicURW-MedIta.otf */; };
+		CE7C31EE2EE1B22500D961D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7C31EC2EE1B22500D961D1 /* GoogleService-Info.plist */; };
+		CE7C31F12EE1B23300D961D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7C31EF2EE1B23300D961D1 /* GoogleService-Info.plist */; };
+		CE98B32B2EB0F286005C847C /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6964A1D6641008C867C33 /* NotoSerif_ExtraCondensed-Medium.ttf */; };
+		CE98B32C2EB0F286005C847C /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6964A1D6641008C867C33 /* NotoSerif_ExtraCondensed-Medium.ttf */; };
+		CE98B32D2EB0F286005C847C /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6964A1D6641008C867C33 /* NotoSerif_ExtraCondensed-Medium.ttf */; };
+		CEBA31302F6D70F400556BBB /* FranklinGothicURW-BooIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD98789599C46FEBA92E967 /* FranklinGothicURW-BooIta.otf */; };
+		CF5B157E2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B157D2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf */; };
+		CF5B157F2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B157D2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf */; };
+		CF5B15802EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B157D2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf */; };
+		CF5B15812EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B157D2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf */; };
+		CF5B15832EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B15822EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf */; };
+		CF5B15842EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B15822EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf */; };
+		CF5B15852EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B15822EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf */; };
+		CF5B15862EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B15822EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf */; };
+		CF5B158D2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B158C2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf */; };
+		CF5B158E2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B158C2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf */; };
+		CF5B158F2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B158C2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf */; };
+		CF5B15902EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5B158C2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf */; };
+		D335DD2AADC140229C8A0A7A /* FranklinGothicURW-DemIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 122567FBA9FF4B5A8BE732CB /* FranklinGothicURW-DemIta.otf */; };
+		DB0012E410E94E6E8BF3B1F3 /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6964A1D6641008C867C33 /* NotoSerif_ExtraCondensed-Medium.ttf */; };
+		F58405B5784BFBF7C23D3B1E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		FD2E034F1A2A242F9D75F1FD /* Pods_nplus_nplusTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A335B7C6B6514459DCF85C /* Pods_nplus_nplusTesting.framework */; };
+		FD3D8F504F616B1D05610E26 /* RNGAMBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496CE329FEC9BA97C49DABB /* RNGAMBannerView.swift */; };
+		FD3D8F504F616B1D05610E27 /* RNGAMBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496CE329FEC9BA97C49DABB /* RNGAMBannerView.swift */; };
+		FD3D8F504F616B1D05610E28 /* RNGAMBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496CE329FEC9BA97C49DABB /* RNGAMBannerView.swift */; };
+		FD3D8F504F616B1D05610E29 /* RNGAMBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496CE329FEC9BA97C49DABB /* RNGAMBannerView.swift */; };
+		FF5B045030F147BD91D7C8CD /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBB25148B0474FEA94F39ADC /* NotoSerif-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CED182C32EE95E3E00EAEFA3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0112506E2DFA10BC005B9EBC /* nplusTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nplusTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112506F2DFA10BC005B9EBC /* nplusTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "nplusTesting-Info.plist"; path = "/Users/ai/Desktop/appinventiv_projects/nplus/ios/nplusTesting-Info.plist"; sourceTree = "<absolute>"; };
+		0112508A2DFA10D1005B9EBC /* nplusStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nplusStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0112508B2DFA10D2005B9EBC /* nplusStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "nplusStaging-Info.plist"; path = "/Users/ai/Desktop/appinventiv_projects/nplus/ios/nplusStaging-Info.plist"; sourceTree = "<absolute>"; };
+		011250A62DFA10DA005B9EBC /* nplusDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nplusDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011250A72DFA10DA005B9EBC /* nplusDevelopment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "nplusDevelopment-Info.plist"; path = "/Users/ai/Desktop/appinventiv_projects/nplus/ios/nplusDevelopment-Info.plist"; sourceTree = "<absolute>"; };
+		122567FBA9FF4B5A8BE732CB /* FranklinGothicURW-DemIta.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FranklinGothicURW-DemIta.otf"; path = "../src/assets/fonts/FranklinGothicURW-DemIta.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* nplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nplus/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nplus/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = nplus/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1CF41FE6881E0561AD840EEC /* Pods_nplus_nplusStaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nplus_nplusStaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		210BF75D17AB4056B88F8E78 /* FranklinGothicURW-Boo.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FranklinGothicURW-Boo.otf"; path = "../src/assets/fonts/FranklinGothicURW-Boo.otf"; sourceTree = "<group>"; };
+		269FFED3F03B3B2F0E6125D6 /* RNGAMBannerViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RNGAMBannerViewManager.swift; path = nplus/GoogleAds/RNGAMBannerViewManager.swift; sourceTree = "<group>"; };
+		2A476C54A1A4681F4F12662B /* Pods_nplus_nplusDevelopment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nplus_nplusDevelopment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		338C2CBAC48B2B81C1DF1E32 /* Pods-nplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus.release.xcconfig"; path = "Target Support Files/Pods-nplus/Pods-nplus.release.xcconfig"; sourceTree = "<group>"; };
+		4AD98789599C46FEBA92E967 /* FranklinGothicURW-BooIta.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FranklinGothicURW-BooIta.otf"; path = "../src/assets/fonts/FranklinGothicURW-BooIta.otf"; sourceTree = "<group>"; };
+		4D576837AF5D4AA28F67737A /* FranklinGothicURW-MedIta.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FranklinGothicURW-MedIta.otf"; path = "../src/assets/fonts/FranklinGothicURW-MedIta.otf"; sourceTree = "<group>"; };
+		5527926FB71F44E996D8D84A /* FranklinGothicURW-Dem.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FranklinGothicURW-Dem.otf"; path = "../src/assets/fonts/FranklinGothicURW-Dem.otf"; sourceTree = "<group>"; };
+		5613673A0D3CE6DB8FD5C237 /* Pods-nplus-nplusTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus-nplusTesting.debug.xcconfig"; path = "Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		65A335B7C6B6514459DCF85C /* Pods_nplus_nplusTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nplus_nplusTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD6964A1D6641008C867C33 /* NotoSerif_ExtraCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif_ExtraCondensed-Medium.ttf"; path = "../src/assets/fonts/NotoSerif_ExtraCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		7496CE329FEC9BA97C49DABB /* RNGAMBannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RNGAMBannerView.swift; path = nplus/GoogleAds/RNGAMBannerView.swift; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = nplus/AppDelegate.swift; sourceTree = "<group>"; };
+		7CE44FCBA17940B5842D509D /* NotoSerif_ExtraCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif_ExtraCondensed-Bold.ttf"; path = "../src/assets/fonts/NotoSerif_ExtraCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		80B91178ABED4C8EB85565B2 /* Mongoose-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mongoose-Medium.otf"; path = "../src/assets/fonts/Mongoose-Medium.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nplus/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		875DDFC774A04386BA676497 /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif-Regular.ttf"; path = "../src/assets/fonts/NotoSerif-Regular.ttf"; sourceTree = "<group>"; };
+		8FD23EF886238B241BB2C2E1 /* Pods-nplus-nplusTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus-nplusTesting.release.xcconfig"; path = "Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting.release.xcconfig"; sourceTree = "<group>"; };
+		9B58246E5D3B841427C39493 /* Pods-nplus-nplusStaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus-nplusStaging.release.xcconfig"; path = "Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging.release.xcconfig"; sourceTree = "<group>"; };
+		9CA87ED98BDA5505A508BFC8 /* Pods-nplus-nplusDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus-nplusDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
+		A19ABCC2F9152EDEF3170B41 /* RNGAMBannerViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNGAMBannerViewManager.m; path = nplus/GoogleAds/RNGAMBannerViewManager.m; sourceTree = "<group>"; };
+		A5AAEE35046D42DEAF0C4FEA /* Superclarendon-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Superclarendon-Light.otf"; path = "../src/assets/fonts/Superclarendon-Light.otf"; sourceTree = "<group>"; };
+		B0F7EDD4498E642ADC9DA008 /* Pods-nplus-nplusDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus-nplusDevelopment.release.xcconfig"; path = "Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment.release.xcconfig"; sourceTree = "<group>"; };
+		B250564B4223427A82A536BC /* FranklinGothicURW-Med.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FranklinGothicURW-Med.otf"; path = "../src/assets/fonts/FranklinGothicURW-Med.otf"; sourceTree = "<group>"; };
+		B72C00EBAC464B11A7E2BBA8 /* Superclarendon-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Superclarendon-Regular.otf"; path = "../src/assets/fonts/Superclarendon-Regular.otf"; sourceTree = "<group>"; };
+		BE5700876FBC4AACB49BC8DD /* NotoSerif_ExtraCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif_ExtraCondensed-Regular.ttf"; path = "../src/assets/fonts/NotoSerif_ExtraCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		C381B8CCF3E50895B70F84FF /* Pods_nplus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nplus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE28E5F22F1EB459000F131E /* NotificationBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBridge.swift; sourceTree = "<group>"; };
+		CE28E5F72F1EB4AB000F131E /* NotificationBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationBridge.m; sourceTree = "<group>"; };
+		CE325E892EA39A9200A19D8D /* nplusTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nplusTesting.entitlements; sourceTree = "<group>"; };
+		CE325E8A2EA39A9700A19D8D /* nplusStaging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nplusStaging.entitlements; sourceTree = "<group>"; };
+		CE61D7672EF0787000F62E50 /* nplus/AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = nplus/AppIcon.icon; sourceTree = "<group>"; };
+		CE7C31EC2EE1B22500D961D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE7C31EF2EE1B23300D961D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEDAD7BC2E8FE3EB006EFC2A /* nplus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = nplus.entitlements; path = nplus/nplus.entitlements; sourceTree = "<group>"; };
+		CF5B157D2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif_ExtraCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CF5B15822EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif_ExtraCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		CF5B158C2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif_ExtraCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CF7AB28DEA0F3ADB0DBCFC71 /* Pods-nplus-nplusStaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus-nplusStaging.debug.xcconfig"; path = "Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB25148B0474FEA94F39ADC /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerif-Bold.ttf"; path = "../src/assets/fonts/NotoSerif-Bold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDC76738E354C92E93EA5226 /* Pods-nplus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nplus.debug.xcconfig"; path = "Target Support Files/Pods-nplus/Pods-nplus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE27A4F52F6C270100D2207D /* Prod */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Prod; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011250582DFA10BC005B9EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2E034F1A2A242F9D75F1FD /* Pods_nplus_nplusTesting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011250742DFA10D1005B9EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43037C085F950512048B94F5 /* Pods_nplus_nplusStaging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011250902DFA10DA005B9EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F80878DD916DC6F075CA4D9 /* (null) in Frameworks */,
+				08FFE2A82F4F00ADB83964C4 /* Pods_nplus_nplusDevelopment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E862BDEA55303731C0CFC36 /* Pods_nplus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* nplus */ = {
+			isa = PBXGroup;
+			children = (
+				CE27A4F52F6C270100D2207D /* Prod */,
+				CEDAD7BC2E8FE3EB006EFC2A /* nplus.entitlements */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				CE7C31ED2EE1B22500D961D1 /* Staging */,
+				CE7C31F02EE1B23300D961D1 /* Testing */,
+				3B782E162783818567BC8012 /* GoogleAds */,
+				CE28E5F22F1EB459000F131E /* NotificationBridge.swift */,
+				CE28E5F72F1EB4AB000F131E /* NotificationBridge.m */,
+			);
+			name = nplus;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				C381B8CCF3E50895B70F84FF /* Pods_nplus.framework */,
+				2A476C54A1A4681F4F12662B /* Pods_nplus_nplusDevelopment.framework */,
+				1CF41FE6881E0561AD840EEC /* Pods_nplus_nplusStaging.framework */,
+				65A335B7C6B6514459DCF85C /* Pods_nplus_nplusTesting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B782E162783818567BC8012 /* GoogleAds */ = {
+			isa = PBXGroup;
+			children = (
+				7496CE329FEC9BA97C49DABB /* RNGAMBannerView.swift */,
+				269FFED3F03B3B2F0E6125D6 /* RNGAMBannerViewManager.swift */,
+				A19ABCC2F9152EDEF3170B41 /* RNGAMBannerViewManager.m */,
+			);
+			name = GoogleAds;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				CE61D7672EF0787000F62E50 /* nplus/AppIcon.icon */,
+				CE325E8A2EA39A9700A19D8D /* nplusStaging.entitlements */,
+				CE325E892EA39A9200A19D8D /* nplusTesting.entitlements */,
+				13B07FAE1A68108700A75B9A /* nplus */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9B49A685F7464199B9E931C7 /* Resources */,
+				0112506F2DFA10BC005B9EBC /* nplusTesting-Info.plist */,
+				0112508B2DFA10D2005B9EBC /* nplusStaging-Info.plist */,
+				011250A72DFA10DA005B9EBC /* nplusDevelopment-Info.plist */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* nplus.app */,
+				0112506E2DFA10BC005B9EBC /* nplusTesting.app */,
+				0112508A2DFA10D1005B9EBC /* nplusStaging.app */,
+				011250A62DFA10DA005B9EBC /* nplusDevelopment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B49A685F7464199B9E931C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CE44FCBA17940B5842D509D /* NotoSerif_ExtraCondensed-Bold.ttf */,
+				BE5700876FBC4AACB49BC8DD /* NotoSerif_ExtraCondensed-Regular.ttf */,
+				210BF75D17AB4056B88F8E78 /* FranklinGothicURW-Boo.otf */,
+				5527926FB71F44E996D8D84A /* FranklinGothicURW-Dem.otf */,
+				CF5B157D2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf */,
+				CF5B15822EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf */,
+				CF5B158C2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf */,
+				B250564B4223427A82A536BC /* FranklinGothicURW-Med.otf */,
+				80B91178ABED4C8EB85565B2 /* Mongoose-Medium.otf */,
+				A5AAEE35046D42DEAF0C4FEA /* Superclarendon-Light.otf */,
+				B72C00EBAC464B11A7E2BBA8 /* Superclarendon-Regular.otf */,
+				DBB25148B0474FEA94F39ADC /* NotoSerif-Bold.ttf */,
+				875DDFC774A04386BA676497 /* NotoSerif-Regular.ttf */,
+				6AD6964A1D6641008C867C33 /* NotoSerif_ExtraCondensed-Medium.ttf */,
+				4AD98789599C46FEBA92E967 /* FranklinGothicURW-BooIta.otf */,
+				122567FBA9FF4B5A8BE732CB /* FranklinGothicURW-DemIta.otf */,
+				4D576837AF5D4AA28F67737A /* FranklinGothicURW-MedIta.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC76738E354C92E93EA5226 /* Pods-nplus.debug.xcconfig */,
+				338C2CBAC48B2B81C1DF1E32 /* Pods-nplus.release.xcconfig */,
+				9CA87ED98BDA5505A508BFC8 /* Pods-nplus-nplusDevelopment.debug.xcconfig */,
+				B0F7EDD4498E642ADC9DA008 /* Pods-nplus-nplusDevelopment.release.xcconfig */,
+				CF7AB28DEA0F3ADB0DBCFC71 /* Pods-nplus-nplusStaging.debug.xcconfig */,
+				9B58246E5D3B841427C39493 /* Pods-nplus-nplusStaging.release.xcconfig */,
+				5613673A0D3CE6DB8FD5C237 /* Pods-nplus-nplusTesting.debug.xcconfig */,
+				8FD23EF886238B241BB2C2E1 /* Pods-nplus-nplusTesting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE7C31ED2EE1B22500D961D1 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C31EC2EE1B22500D961D1 /* GoogleService-Info.plist */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		CE7C31F02EE1B23300D961D1 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C31EF2EE1B23300D961D1 /* GoogleService-Info.plist */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011250542DFA10BC005B9EBC /* nplusTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0112506B2DFA10BC005B9EBC /* Build configuration list for PBXNativeTarget "nplusTesting" */;
+			buildPhases = (
+				2DF74BF369A1BD706052CC3C /* [CP] Check Pods Manifest.lock */,
+				011250562DFA10BC005B9EBC /* Sources */,
+				011250582DFA10BC005B9EBC /* Frameworks */,
+				0112505A2DFA10BC005B9EBC /* Resources */,
+				011250682DFA10BC005B9EBC /* Bundle React Native code and images */,
+				CED182C32EE95E3E00EAEFA3 /* Embed Foundation Extensions */,
+				8F9E81B82CB5E920367F0DCC /* [CP] Embed Pods Frameworks */,
+				5CFE7E43B9212551EFDE2582 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nplusTesting;
+			productName = nplus;
+			productReference = 0112506E2DFA10BC005B9EBC /* nplusTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011250702DFA10D1005B9EBC /* nplusStaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011250872DFA10D1005B9EBC /* Build configuration list for PBXNativeTarget "nplusStaging" */;
+			buildPhases = (
+				47B263CFA9BF20130B18D1B1 /* [CP] Check Pods Manifest.lock */,
+				011250722DFA10D1005B9EBC /* Sources */,
+				011250742DFA10D1005B9EBC /* Frameworks */,
+				011250762DFA10D1005B9EBC /* Resources */,
+				011250842DFA10D1005B9EBC /* Bundle React Native code and images */,
+				43FC0A140DF791599B85CA67 /* [CP] Embed Pods Frameworks */,
+				0732E348B369D16FE6997197 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nplusStaging;
+			productName = nplus;
+			productReference = 0112508A2DFA10D1005B9EBC /* nplusStaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0112508C2DFA10DA005B9EBC /* nplusDevelopment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011250A32DFA10DA005B9EBC /* Build configuration list for PBXNativeTarget "nplusDevelopment" */;
+			buildPhases = (
+				C92AE01E5AEC6D1C9B82254F /* [CP] Check Pods Manifest.lock */,
+				0112508E2DFA10DA005B9EBC /* Sources */,
+				011250902DFA10DA005B9EBC /* Frameworks */,
+				011250922DFA10DA005B9EBC /* Resources */,
+				011250A02DFA10DA005B9EBC /* Bundle React Native code and images */,
+				554D5F0A93196DDA4B0E1A05 /* [CP] Embed Pods Frameworks */,
+				BFA343898F194D30598EE93D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nplusDevelopment;
+			productName = nplus;
+			productReference = 011250A62DFA10DA005B9EBC /* nplusDevelopment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B07F861A680F5B00A75B9A /* nplus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nplus" */;
+			buildPhases = (
+				B65AC2295E97BB04DD954509 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				B08820D465CB8DD0C6419704 /* [CP] Embed Pods Frameworks */,
+				976E604B610997A9D8C4E63C /* [CP] Copy Pods Resources */,
+				F3A375F367A517F925344A98 /* [CP-User] [RNFB] Core Configuration */,
+				8BC1938FC51B4C63F2A90C4B /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE27A4F52F6C270100D2207D /* Prod */,
+			);
+			name = nplus;
+			productName = nplus;
+			productReference = 13B07F961A680F5B00A75B9A /* nplus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nplus" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* nplus */,
+				011250542DFA10BC005B9EBC /* nplusTesting */,
+				011250702DFA10D1005B9EBC /* nplusStaging */,
+				0112508C2DFA10DA005B9EBC /* nplusDevelopment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0112505A2DFA10BC005B9EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0112505B2DFA10BC005B9EBC /* LaunchScreen.storyboard in Resources */,
+				0112505C2DFA10BC005B9EBC /* Images.xcassets in Resources */,
+				0112505D2DFA10BC005B9EBC /* PrivacyInfo.xcprivacy in Resources */,
+				0112505E2DFA10BC005B9EBC /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */,
+				CE71EB692E6DD6EA002AA92F /* FranklinGothicURW-DemIta.otf in Resources */,
+				CE61D7682EF0787000F62E50 /* nplus/AppIcon.icon in Resources */,
+				CF5B15852EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */,
+				0112505F2DFA10BC005B9EBC /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */,
+				011250602DFA10BC005B9EBC /* FranklinGothicURW-Boo.otf in Resources */,
+				011250612DFA10BC005B9EBC /* FranklinGothicURW-Dem.otf in Resources */,
+				011250622DFA10BC005B9EBC /* FranklinGothicURW-Med.otf in Resources */,
+				011250632DFA10BC005B9EBC /* Mongoose-Medium.otf in Resources */,
+				011250642DFA10BC005B9EBC /* Superclarendon-Light.otf in Resources */,
+				CE71EB662E6DD6E5002AA92F /* FranklinGothicURW-BooIta.otf in Resources */,
+				CE98B32B2EB0F286005C847C /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */,
+				011250652DFA10BC005B9EBC /* Superclarendon-Regular.otf in Resources */,
+				CF5B15902EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */,
+				CE71EB6C2E6DD6EF002AA92F /* FranklinGothicURW-MedIta.otf in Resources */,
+				CF5B15812EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */,
+				CE7C31F12EE1B23300D961D1 /* GoogleService-Info.plist in Resources */,
+				011250662DFA10BC005B9EBC /* NotoSerif-Bold.ttf in Resources */,
+				011250672DFA10BC005B9EBC /* NotoSerif-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011250762DFA10D1005B9EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011250772DFA10D1005B9EBC /* LaunchScreen.storyboard in Resources */,
+				011250782DFA10D1005B9EBC /* Images.xcassets in Resources */,
+				011250792DFA10D1005B9EBC /* PrivacyInfo.xcprivacy in Resources */,
+				0112507A2DFA10D1005B9EBC /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */,
+				CE71EB6A2E6DD6EA002AA92F /* FranklinGothicURW-DemIta.otf in Resources */,
+				CE61D76A2EF0787000F62E50 /* nplus/AppIcon.icon in Resources */,
+				CF5B15832EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */,
+				0112507B2DFA10D1005B9EBC /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */,
+				0112507C2DFA10D1005B9EBC /* FranklinGothicURW-Boo.otf in Resources */,
+				0112507D2DFA10D1005B9EBC /* FranklinGothicURW-Dem.otf in Resources */,
+				0112507E2DFA10D1005B9EBC /* FranklinGothicURW-Med.otf in Resources */,
+				0112507F2DFA10D1005B9EBC /* Mongoose-Medium.otf in Resources */,
+				011250802DFA10D1005B9EBC /* Superclarendon-Light.otf in Resources */,
+				CE71EB672E6DD6E5002AA92F /* FranklinGothicURW-BooIta.otf in Resources */,
+				CE98B32C2EB0F286005C847C /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */,
+				011250812DFA10D1005B9EBC /* Superclarendon-Regular.otf in Resources */,
+				CF5B158D2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */,
+				CE71EB6D2E6DD6EF002AA92F /* FranklinGothicURW-MedIta.otf in Resources */,
+				CF5B15802EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */,
+				CE7C31EE2EE1B22500D961D1 /* GoogleService-Info.plist in Resources */,
+				011250822DFA10D1005B9EBC /* NotoSerif-Bold.ttf in Resources */,
+				011250832DFA10D1005B9EBC /* NotoSerif-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011250922DFA10DA005B9EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011250932DFA10DA005B9EBC /* LaunchScreen.storyboard in Resources */,
+				011250942DFA10DA005B9EBC /* Images.xcassets in Resources */,
+				011250952DFA10DA005B9EBC /* PrivacyInfo.xcprivacy in Resources */,
+				011250962DFA10DA005B9EBC /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */,
+				CE71EB6B2E6DD6EA002AA92F /* FranklinGothicURW-DemIta.otf in Resources */,
+				CF5B15862EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */,
+				011250972DFA10DA005B9EBC /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */,
+				011250982DFA10DA005B9EBC /* FranklinGothicURW-Boo.otf in Resources */,
+				011250992DFA10DA005B9EBC /* FranklinGothicURW-Dem.otf in Resources */,
+				0112509A2DFA10DA005B9EBC /* FranklinGothicURW-Med.otf in Resources */,
+				0112509B2DFA10DA005B9EBC /* Mongoose-Medium.otf in Resources */,
+				0112509C2DFA10DA005B9EBC /* Superclarendon-Light.otf in Resources */,
+				CE71EB682E6DD6E5002AA92F /* FranklinGothicURW-BooIta.otf in Resources */,
+				CE98B32D2EB0F286005C847C /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */,
+				0112509D2DFA10DA005B9EBC /* Superclarendon-Regular.otf in Resources */,
+				CF5B158F2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */,
+				CE71EB6E2E6DD6EF002AA92F /* FranklinGothicURW-MedIta.otf in Resources */,
+				CE61D7692EF0787000F62E50 /* nplus/AppIcon.icon in Resources */,
+				CF5B157E2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */,
+				0112509E2DFA10DA005B9EBC /* NotoSerif-Bold.ttf in Resources */,
+				0112509F2DFA10DA005B9EBC /* NotoSerif-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5B158E2EB4F219008951D1 /* NotoSerif_ExtraCondensed-MediumItalic.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F58405B5784BFBF7C23D3B1E /* PrivacyInfo.xcprivacy in Resources */,
+				440B7948F6814BB5AA9804F0 /* NotoSerif_ExtraCondensed-Bold.ttf in Resources */,
+				38E3B803110949A3A4E21216 /* NotoSerif_ExtraCondensed-Regular.ttf in Resources */,
+				CF5B15842EB4EC4E008951D1 /* NotoSerif_ExtraCondensed-Italic.ttf in Resources */,
+				2C24A6CBED114C7FB3E0F83F /* FranklinGothicURW-Boo.otf in Resources */,
+				5E1B386C8509473EB233EC1B /* FranklinGothicURW-Dem.otf in Resources */,
+				CE61D76B2EF0787000F62E50 /* nplus/AppIcon.icon in Resources */,
+				9D9EDAF7939B4F9AA41F009D /* FranklinGothicURW-Med.otf in Resources */,
+				CEBA31302F6D70F400556BBB /* FranklinGothicURW-BooIta.otf in Resources */,
+				CF5B157F2EB4EC3A008951D1 /* NotoSerif_ExtraCondensed-BoldItalic.ttf in Resources */,
+				68713866C56C4A34BAD98D4B /* Mongoose-Medium.otf in Resources */,
+				51307134392C4F8C90A7B17D /* Superclarendon-Light.otf in Resources */,
+				B251371F61414AECAD05815B /* Superclarendon-Regular.otf in Resources */,
+				FF5B045030F147BD91D7C8CD /* NotoSerif-Bold.ttf in Resources */,
+				93F7D904595C48D4B76C6139 /* NotoSerif-Regular.ttf in Resources */,
+				DB0012E410E94E6E8BF3B1F3 /* NotoSerif_ExtraCondensed-Medium.ttf in Resources */,
+				D335DD2AADC140229C8A0A7A /* FranklinGothicURW-DemIta.otf in Resources */,
+				3E082AA9F5134FAD8F14FAFF /* FranklinGothicURW-MedIta.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		011250682DFA10BC005B9EBC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		011250842DFA10D1005B9EBC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		011250A02DFA10DA005B9EBC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		0732E348B369D16FE6997197 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF74BF369A1BD706052CC3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nplus-nplusTesting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FC0A140DF791599B85CA67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusStaging/Pods-nplus-nplusStaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B263CFA9BF20130B18D1B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nplus-nplusStaging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554D5F0A93196DDA4B0E1A05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CFE7E43B9212551EFDE2582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC1938FC51B4C63F2A90C4B /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		8F9E81B82CB5E920367F0DCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusTesting/Pods-nplus-nplusTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976E604B610997A9D8C4E63C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus/Pods-nplus-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus/Pods-nplus-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus/Pods-nplus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08820D465CB8DD0C6419704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus/Pods-nplus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus/Pods-nplus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus/Pods-nplus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65AC2295E97BB04DD954509 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nplus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA343898F194D30598EE93D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nplus-nplusDevelopment/Pods-nplus-nplusDevelopment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92AE01E5AEC6D1C9B82254F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nplus-nplusDevelopment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A375F367A517F925344A98 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n##########################################################################\n##########################################################################\n#\n#  NOTE THAT IF YOU CHANGE THIS FILE YOU MUST RUN pod install AFTERWARDS\n#\n#  This file is installed as an Xcode build script in the project file\n#  by cocoapods, and you will not see your changes until you pod install\n#\n##########################################################################\n##########################################################################\n\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"note:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"note:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"note: -> RNFB build script started\"\necho \"note: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"note:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"note:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  if ! _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\"); then\n    echo \"error: Failed to parse firebase.json, check for syntax errors.\"\n    exit 1\n  fi\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"error: python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_analytics_storage\n  _ANALYTICS_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_analytics_storage\")\n  if [[ $_ANALYTICS_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_storage\n  _ANALYTICS_AD_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_storage\")\n  if [[ $_ANALYTICS_AD_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_user_data\n  _ANALYTICS_AD_USER_DATA=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_user_data\")\n  if [[ $_ANALYTICS_AD_USER_DATA ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_USER_DATA\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"note: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"note: <- RNFB build script finished\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011250562DFA10BC005B9EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28E5F32F1EB459000F131E /* NotificationBridge.swift in Sources */,
+				CE28E5FA2F1EB4AB000F131E /* NotificationBridge.m in Sources */,
+				011250572DFA10BC005B9EBC /* AppDelegate.swift in Sources */,
+				FD3D8F504F616B1D05610E27 /* RNGAMBannerView.swift in Sources */,
+				83D23AE7087D567F9935BC6A /* RNGAMBannerViewManager.swift in Sources */,
+				AFB17FAB599B828398A4C501 /* RNGAMBannerViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011250722DFA10D1005B9EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28E5F52F1EB459000F131E /* NotificationBridge.swift in Sources */,
+				CE28E5F82F1EB4AB000F131E /* NotificationBridge.m in Sources */,
+				011250732DFA10D1005B9EBC /* AppDelegate.swift in Sources */,
+				FD3D8F504F616B1D05610E28 /* RNGAMBannerView.swift in Sources */,
+				83D23AE7087D567F9935BC6B /* RNGAMBannerViewManager.swift in Sources */,
+				AFB17FAB599B828398A4C502 /* RNGAMBannerViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0112508E2DFA10DA005B9EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28E5F62F1EB459000F131E /* NotificationBridge.swift in Sources */,
+				CE28E5FB2F1EB4AB000F131E /* NotificationBridge.m in Sources */,
+				0112508F2DFA10DA005B9EBC /* AppDelegate.swift in Sources */,
+				FD3D8F504F616B1D05610E29 /* RNGAMBannerView.swift in Sources */,
+				83D23AE7087D567F9935BC6C /* RNGAMBannerViewManager.swift in Sources */,
+				AFB17FAB599B828398A4C503 /* RNGAMBannerViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28E5F42F1EB459000F131E /* NotificationBridge.swift in Sources */,
+				CE28E5F92F1EB4AB000F131E /* NotificationBridge.m in Sources */,
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				FD3D8F504F616B1D05610E26 /* RNGAMBannerView.swift in Sources */,
+				83D23AE7087D567F9935BC69 /* RNGAMBannerViewManager.swift in Sources */,
+				AFB17FAB599B828398A4C500 /* RNGAMBannerViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0112506C2DFA10BC005B9EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5613673A0D3CE6DB8FD5C237 /* Pods-nplus-nplusTesting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplusTesting.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T3NVJZAX53;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "nplusTesting-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Supernova (Testing)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova.testing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = QA_Profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		0112506D2DFA10BC005B9EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD23EF886238B241BB2C2E1 /* Pods-nplus-nplusTesting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplusTesting.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T3NVJZAX53;
+				INFOPLIST_FILE = "nplusTesting-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Supernova (Testing)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova.testing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = QA_Profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		011250882DFA10D1005B9EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7AB28DEA0F3ADB0DBCFC71 /* Pods-nplus-nplusStaging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplusStaging.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 85;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T3NVJZAX53;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "nplusStaging-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Supernova (Staging)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Staging_debug_profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		011250892DFA10D1005B9EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B58246E5D3B841427C39493 /* Pods-nplus-nplusStaging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplusStaging.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 85;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T3NVJZAX53;
+				INFOPLIST_FILE = "nplusStaging-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Supernova (Staging)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Staging_debug_profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		011250A42DFA10DA005B9EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA87ED98BDA5505A508BFC8 /* Pods-nplus-nplusDevelopment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplusDevelopment.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3NVJZAX53;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "nplusDevelopment-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Supernova (Development)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		011250A52DFA10DA005B9EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F7EDD4498E642ADC9DA008 /* Pods-nplus-nplusDevelopment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplusDevelopment.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3NVJZAX53;
+				INFOPLIST_FILE = "nplusDevelopment-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Supernova (Development)";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC76738E354C92E93EA5226 /* Pods-nplus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplus/nplus.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 102;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T3NVJZAX53;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = nplus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Supernova;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova;
+				PRODUCT_NAME = nplus;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Prod_Debug_Profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338C2CBAC48B2B81C1DF1E32 /* Pods-nplus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nplus/nplus.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 102;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T3NVJZAX53;
+				INFOPLIST_FILE = nplus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Supernova;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmas.supernova;
+				PRODUCT_NAME = nplus;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Prod_Debug_Profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0112506B2DFA10BC005B9EBC /* Build configuration list for PBXNativeTarget "nplusTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0112506C2DFA10BC005B9EBC /* Debug */,
+				0112506D2DFA10BC005B9EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011250872DFA10D1005B9EBC /* Build configuration list for PBXNativeTarget "nplusStaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011250882DFA10D1005B9EBC /* Debug */,
+				011250892DFA10D1005B9EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011250A32DFA10DA005B9EBC /* Build configuration list for PBXNativeTarget "nplusDevelopment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011250A42DFA10DA005B9EBC /* Debug */,
+				011250A52DFA10DA005B9EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "nplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "nplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

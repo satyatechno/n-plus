@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Supernova (Development)</string>
+    <string name="facebook_app_id">1539354797022691</string>
+    <string name="fb_login_protocol_scheme">fb1539354797022691</string>
+    <string name="facebook_client_token">4a85704b1c0c94b775480670ca953db0</string>
+</resources>

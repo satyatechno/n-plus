@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278599657946",
+    "project_id": "supernova-firebase-staging",
+    "storage_bucket": "supernova-firebase-staging.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278599657946:android:03a9e06134609ecc0ab8e3",
+        "android_client_info": {
+          "package_name": "com.nmas.supernova.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278599657946-6q9uirehipd2v94bmqvf05t0m72mktri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgdKxwdRENTQ1pSul171VbcuEOkdUcopo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278599657946-6q9uirehipd2v94bmqvf05t0m72mktri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

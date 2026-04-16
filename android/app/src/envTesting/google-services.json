@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084362086623",
+    "project_id": "supernova-firebase-testing",
+    "storage_bucket": "supernova-firebase-testing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084362086623:android:05f075dd3b22d5ca36316a",
+        "android_client_info": {
+          "package_name": "com.nmas.supernova.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084362086623-ca948sna4uiu1fmc30nv1iil64q43bll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmas.supernova.testing",
+            "certificate_hash": "0af06ecba764b62c0812f6c57e74cdb3268fdaa1"
+          }
+        },
+        {
+          "client_id": "1084362086623-bssrfm1gdn6p4q4sohddqg8cciij21fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6EEJRwnTHFSMEz4TVUQsMEmdvidG92pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084362086623-bssrfm1gdn6p4q4sohddqg8cciij21fg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1084362086623-okcq4fspcdkj9mkehe9iupe434iessdr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nmas.supernova.testing",
+                "app_store_id": "6752660941"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

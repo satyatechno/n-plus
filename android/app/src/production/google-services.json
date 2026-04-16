@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "467061532879",
+    "project_id": "supernova-live",
+    "storage_bucket": "supernova-live.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467061532879:android:cf2df0c34e390801646fba",
+        "android_client_info": {
+          "package_name": "com.nmas.supernova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467061532879-67f1g6ua371s3bsj84vkudh78j91purr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmas.supernova",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "467061532879-n659lporpfu9bndup1sje67a6tgpl5ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmas.supernova",
+            "certificate_hash": "a909dfffd53688f4d78c3fb6077a0d4de11698ad"
+          }
+        },
+        {
+          "client_id": "467061532879-qkqtin1shgcagitproi44dsjft12rtuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmas.supernova",
+            "certificate_hash": "68e02bf273d92935d258f51c0103899703651ff9"
+          }
+        },
+        {
+          "client_id": "467061532879-q0as98ke6ntke3jv34fatmbab4a15kmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2NZSG_jPg-RQNDQCpl09IKfdvJrNEYvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467061532879-q0as98ke6ntke3jv34fatmbab4a15kmc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "467061532879-f4g9nemjuglor4dmp9ff3igvfchu981f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nmas.supernova",
+                "app_store_id": "6760046229"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

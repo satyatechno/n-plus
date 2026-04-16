@@ -1,0 +1,825 @@
+{
+  "language": "Spanish",
+  "screens": {
+    "login": {
+      "title": "Inicia sesión",
+      "text": {
+        "enterYourDetails": "Ingresa tus datos",
+        "enterYourEmailPassword": "Ingresa tu correo y tu contraseña",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "emailPlaceholder": "tuemail@ejemplo.com",
+        "enterPassword": "Ingresa contraseña",
+        "emailRequired": "El correo es obligatorio",
+        "emailInvalid": "Formato de correo inválido",
+        "passwordRequired": "La contraseña es obligatoria",
+        "passwordMin": "La contraseña debe tener al menos 8 caracteres",
+        "incorrectPassword": "Contraseña incorrecta",
+        "formError": "Hubo un problema al cargar el formulario. Inténtalo de nuevo más tarde",
+        "passwordUppercase": "Debe incluir al menos una letra mayúscula",
+        "passwordLowercase": "Debe incluir al menos una letra minúscula",
+        "passwordDigit": "Debe incluir al menos un número",
+        "passwordSpecialChar": "Debe incluir al menos un carácter especial",
+        "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo"
+      }
+    },
+    "recommendations": {
+      "text": {
+        "header": "Configuración de intereses",
+        "viewMore": "Ver más intereses",
+        "viewLess": "Ver menos intereses",
+        "onboardingHeading": "Por favor selecciona tus intereses",
+        "editHeading": "Edita tus intereses",
+        "onboardingSubheading": "Selecciona 3 o más para continuar y recibir notificaciones personalizadas",
+        "editSubheading": "Actualízalos para personalizar tu experiencia y recibir notificaciones relevantes. Debes mantener al menos 3 seleccionados"
+      },
+      "modal": {
+        "unsavedTitle": "¿Quieres salir sin guardar?",
+        "unsavedMessage": "Los cambios en tus intereses no se aplicarán\n Esta acción no se puede deshacer",
+        "unsavedSubtitle": "¿Deseas continuar?"
+      }
+    },
+    "recommendedForYou": {
+      "title": "Recomendado para ti",
+      "text": {
+        "pleaseSelectInterests": "Por favor selecciona tus intereses",
+        "createEmailAndPassword": "Selecciona las categorías que más te gustaría ver",
+        "skip": "Saltar",
+        "continue": "Continuar",
+        "keep": "Guardar",
+        "noPreferencesTitle": "No se ha seleccionado ninguna preferencia",
+        "noPreferencesSubtitle": "Seleccione al menos 3 preferencias haciendo clic en el icono de configuración que se encuentra en la esquina superior derecha de esta pantalla",
+        "personalizeExperienceAccordingInterests": "Personaliza tu experiencia de acuerdo a tus intereses",
+        "weDontKnowYourInterests": "No sabemos tus intereses",
+        "addYourInterests": "Aún no tienes ninguna recomendación,\nañade tus intereses para darte recomendaciones",
+        "enterYourInterests": "Ingresa tus intereses",
+        "resendError": "Algo salió mal Por favor, inténtalo de nuevo",
+        "resendSuccess": "Se ha enviado un correo electrónico a tu dirección exitosamente"
+      }
+    },
+    "socialMediaAuth": {
+      "title": "Crea tu cuenta",
+      "text": {
+        "continue": "Continuar",
+        "createYourAccount": "Crea tu cuenta",
+        "email": "Correo electrónico",
+        "placeholder": "tuemail@ejemplo.com",
+        "alreadyHaveAnAccount": "¿Ya tienes una cuenta?",
+        "signIn": "Inicia sesión",
+        "register": "Regístrate",
+        "emailInvalid": "Formato de correo inválido",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "or": "o",
+        "welcomeBack": "Bienvenido de nuevo",
+        "enterYourEmail": "Ingresa tu correo electrónico para iniciar sesión",
+        "dontHaveAccount": "¿No tienes cuenta?",
+        "problemWithLoading": "Hubo un problema al cargar el formulario. Por favor, inténtalo de nuevo más tarde",
+        "goodToHaveYouBack": "Es bueno tenerte de vuelta",
+        "subtitleForDeleteAlert": "¿Seguro que quieres cancelar la eliminación de tu cuenta?\nTe quedan 2 días para cambiar\nde opinión",
+        "googleTitle": "Continua con Google",
+        "facebookTitle": "Continua con Facebook",
+        "appleTitle": "Continua con Apple",
+        "emailAlreadyRegistered": "Este correo ya está registrado. Inicia sesión para continuar",
+        "emailNotRegistered": "Este correo no está registrado. Crea una cuenta para continuar",
+        "noGoogleIdToken": "No se encontró el token de ID de Google. Por favor, inténtalo de nuevo",
+        "authTokenError": "Se esperaba un token de autenticación, pero se recibió nulo",
+        "accessTokenError": "Se esperaba un token de acceso, pero se recibió nulo",
+        "userCanceledTheLogin": "El inicio de sesión fue cancelado por el usuario",
+        "tokenInvalid": "Token de autenticación inválido",
+        "welcomeBackTitle": "Es bueno tenerte de vuelta",
+        "appleSocialLoginError": "No se encontró conexión a internet. Parece que su dispositivo no está conectado a Internet o a una conexión wifi. Vuelva a verificar o reinicie su conexión de red",
+        "cancelAppleLogin": "El inicio de sesión con la app ha sido cancelado",
+        "applePrivateEmailError": "El inicio de sesión de Apple falló debido a restricciones de configuración. Regístrese manualmente"
+      }
+    },
+    "notificationAlert": {
+      "title": "Notificación Alerta",
+      "text": {
+        "stayUpToDateWithLatestNews": "Mantente al día\ncon las últimas noticias",
+        "selectAlertsOfInterestAndStayUpdated": "Selecciona alertas de tu interés y sigue actualizado",
+        "continue": "Continuar",
+        "byContinuingYouAreAcceptingOur": "Al continuar estás aceptando nuestros ",
+        "terms&Conditions": "Términos y Condiciones,",
+        "asWellAsThe": " así como el ",
+        "privacyPolicy": "Aviso de Privacidad",
+        "breakingNews": "Noticias de Última Hora",
+        "editorsPicks": "Selección del Editor",
+        "originalContent": "Contenido Original N+",
+        "politics": "Política",
+        "opinion": "Opinión",
+        "economy": "Economía",
+        "skip": "Saltar",
+        "categoryFeatureComingSoon": "La funcionalidad de categoría estará disponible pronto"
+      }
+    },
+    "settings": {
+      "title": "Ajustes",
+      "text": {
+        "configuration": "Configuración",
+        "systemAppearance": "Apariencia del sistema",
+        "systemAppearanceDesc": "Cambia entre temas según tu preferencia",
+        "textSize": "Tamaño del texto",
+        "textSizeDesc": "Ajusta el tamaño del texto para una experiencia más cómoda",
+        "dataUsage": "Uso de datos",
+        "clearCache": "Borrar caché",
+        "downloadImages": "Descargar imágenes",
+        "downloadImagesDesc": "Al tener desactivado este ajuste se evita la carga de imágenes para ahorrar datos",
+        "autoPlay": "Reproducción automática de videos",
+        "autoPlayDesc": "Algunos videos se reproducen automáticamente en silencio. Selecciona cuándo quieres que se reproduzcan automáticamente",
+        "notifications": "Mis intereses",
+        "manage": "Administrar",
+        "notificationsDesc": "Mis intereses, Desde aquí gestionas tus intereses y las notificaciones asociadas",
+        "deleteAccount": "Eliminar cuenta",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Tema del sistema",
+        "autoPlayAlways": "Siempre",
+        "autoPlayWifiOnly": "Solo con Wi-Fi",
+        "autoPlayNever": "Nunca",
+        "clearCacheModalTitle": "¿Quieres borrar el caché?",
+        "clearCacheModalMessage": "Borrar el caché eliminará todos los artículos, imágenes y contenido visto recientemente",
+        "clearCacheModalSubtitle": "Esta acción no se puede deshacer. ¿Quieres continuar?",
+        "cancel": "Cancelar",
+        "cacheClearedSuccessfully": "Caché despejado con éxito",
+        "abc": "Abc",
+        "textSizeSystem": "Usar tipografía del sistema",
+        "textSizeSystemDesc": "Adapta la tipografía al sistema operativo del dispositivo",
+        "downloadImagesTitle": "Descargar imágenes",
+        "preferredTextSizeSubtitle": "Ajusta el tamaño del texto de acuerdo a tu preferencia",
+        "small": "Chica",
+        "medium": "Mediana",
+        "large": "Grande",
+        "setTypography": "Configura la tipografía"
+      }
+    },
+    "createAccountPassword": {
+      "title": "Crea tu cuenta",
+      "text": {
+        "heading": "Ingresa tus datos",
+        "subHeading": "Ingresa tu correo y crea una contraseña",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "passwordPlaceholder": "Ingresa contraseña",
+        "confirmPassword": "Confirma tu contraseña",
+        "passwordMatch": "Ambas contraseñas coinciden",
+        "passwordMismatch": "Ambas contraseñas no coinciden",
+        "createAccount": "Crear cuenta",
+        "footerPreText": "Al crear una cuenta, aceptas los ",
+        "terms": "Terminos y Condiciones",
+        "footerMidText": " así como el ",
+        "privacy": "Aviso de Privacidad",
+        "passwordDoesNotMatch": "Las contraseñas no coinciden",
+        "passwordCriteria": {
+          "title": "Tu contraseña debe cumplir con estos requisitos:",
+          "length": "Debe contener entre 8 y 15 caracteres",
+          "uppercase": "Debe incluir una letra mayúscula",
+          "lowercase": "Debe incluir una letra minúscula",
+          "number": "Incluir al menos 1 número",
+          "specialChar": "Incluir al menos 1 carácter especial"
+        }
+      }
+    },
+    "validation": {
+      "passwordCriteria": {
+        "title": "Tu contraseña debe cumplir con estos requisitos:",
+        "length": "Debe contener entre 8 y 15 caracteres",
+        "uppercase": "Debe incluir una letra mayúscula",
+        "lowercase": "Debe incluir una letra minúscula",
+        "number": "Incluir al menos 1 número",
+        "specialCharacter": "Incluir al menos 1 carácter especial"
+      },
+      "email": {
+        "invalid": "Formato de correo inválido",
+        "required": "Se requiere correo electrónico"
+      },
+      "password": {
+        "required": "Se requiere contraseña"
+      },
+      "confirmPassword": {
+        "required": "Confirma tu contraseña",
+        "mismatch": "Las contraseñas no coinciden"
+      },
+      "form": {
+        "genericError": "Hubo un problema con el formulario. Inténtalo de nuevo más tarde",
+        "somethingWentWrong": "Algo salió mal"
+      },
+      "inputBox": {
+        "minCharacters": "Mínimo 2 caracteres requeridos",
+        "maxCharacters": "Máximo 500 caracteres permitidos"
+      }
+    },
+    "introScreen": {
+      "title": "Pantallas de introducción",
+      "text": {
+        "breakingNews": "Breaking News",
+        "investigation": "Investigación",
+        "opinion": "Opinión",
+        "continue": "Continuar"
+      }
+    },
+    "splash": {
+      "title": "Chapoteo",
+      "text": {
+        "decideInformed": "Decide Informado",
+        "login": "Inicia sesión",
+        "signUp": "Regístrate",
+        "continueAsGuest": "Continúa como invitado",
+        "noInternet": "No se encontró conexión a internet",
+        "noInternetConnection": "No se encontró conexión a internet",
+        "checkConnection": "Parece que su dispositivo no está conectado a Internet o a una conexión wifi. Vuelva a verificar o reinicie su conexión de red",
+        "tryAgain": "Intentar de nuevo",
+        "somethingWentWrongDesc": "Estamos enfrentando algunos problemas al usar esta aplicación",
+        "contentLoads": "Estamos enfrentando algunos problemas al usar esta aplicación",
+        "contentLoadsDesc": "Por favor espere, estamos preparando las cosas para que las muestre ahora",
+        "back": "Atrás"
+      }
+    },
+    "signUpOtp": {
+      "title": "Crea tu cuenta",
+      "text": {
+        "heading": "Confirma tu correo electrónico",
+        "subHeading": "Introduce el código de verificación que te enviamos a ",
+        "incorrectCode": "Código incorrecto",
+        "resendCode": "Reenviar código en",
+        "verifyCode": "Verificar código",
+        "didntReceiveCode": "¿No recibiste el código? ",
+        "resend": "Reenviar",
+        "resendSuccess": "Se ha enviado un correo electrónico a tu dirección exitosamente",
+        "resendError": "Algo salió mal. Por favor, inténtalo de nuevo",
+        "dontHaveAccount": "¿No tienes cuenta?",
+        "problemWithLoading": "Hubo un problema al cargar el formulario. Por favor, inténtalo de nuevo más tarde"
+      }
+    },
+    "signUpOtpSuccess": {
+      "title": "Cuenta verificada",
+      "text": {
+        "heading": "Su cuenta se verificó correctamente",
+        "continueText": "Continuar"
+      }
+    },
+    "createNewPassword": {
+      "title": "Restablecer contraseña",
+      "text": {
+        "heading": "Configura tu nueva contraseña",
+        "subHeading": "Ingresa tu nueva contraseña y confírmala para continuar",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "passwordPlaceholder": "Ingresa contraseña",
+        "confirmPassword": "Confirma tu contraseña",
+        "passwordMatch": "Ambas contraseñas coinciden",
+        "passwordMismatch": "Ambas contraseñas no coinciden",
+        "continue": "Continuar",
+        "formError": "Hubo un problema con el formulario. Inténtalo de nuevo más tarde",
+        "footer": "Al crear una cuenta, aceptas los <terms>Terminos y Condiciones</terms> y la <privacy>Aviso de Privacidad</privacy>",
+        "successTitle": "Contraseña actualizada",
+        "successSubtitle": "Tu contraseña se restableció exitosamente"
+      }
+    },
+    "newsletters": {
+      "title": "Newsletter",
+      "text": {
+        "subscriptions": "Suscripciones",
+        "mySubscriptions": "Mis suscripciones",
+        "nPlusNewsletters": "N+ Newsletters",
+        "subTitle": "Has iniciado sesión como ",
+        "youCanManageYourPreferences": ". Puedes administrar tus preferencias aquí",
+        "subscribe": "Suscríbete",
+        "unsubscribe": "Desuscribirse",
+        "unsubscribeEverything": "Desuscribirse de todo",
+        "haveNoSubscriptions": "Actualmente no tienes suscripciones activas",
+        "stayInformed": "Si deseas mantenerte informado,\npuedes suscribirte en cualquier momento",
+        "whyYouUnsubscribed": "¿Te gustaría contarnos por qué te desuscribiste?",
+        "sendComments": "Enviar comentarios",
+        "thanks": "No, gracias",
+        "otherReason": "Otra razón",
+        "writeYourReasonHere": "Escribe tu razón aquí",
+        "subscribeSuccess": "Tu suscripción está activa. Puedes gestionarla desde aquí cuando quieras",
+        "selectAtLeastOneNewsletter": "Por favor, selecciona al menos un boletín",
+        "unsubscribedFromAllOurNewsletters": "Te has dado de baja de todos nuestros boletines",
+        "unsubscribedFromThisNewsletter": "Has cancelado tu suscripción a este boletín",
+        "enterEmailAddress": "Introduce tu correo electrónico",
+        "subscribeToNewsletter": "Suscríbete a nuestra newsletter",
+        "leaveUsYourMail": "Déjanos tu correo y recíbelo directamente en tu bandeja de entrada",
+        "manageYourSubscriptions": "Administra tus suscripciones",
+        "loginToStartReadingArticles": "Solo inicia sesión o regístrate y empieza a leer artículos sin límites",
+        "notLoggedIn": "Aún no has iniciado sesión. Puedes gestionar tus preferencias después de iniciar sesión.",
+        "emailRecieved": "Recibirás el boletín en"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "text": {
+        "forgottenPassword": "Contraseña olvidada",
+        "resetYourPassword": "Restablece tu contraseña",
+        "enterEmailSendResetCode": "Ingresa tu correo y te enviamos un código de restablecimiento",
+        "sendCode": "Enviar código"
+      }
+    },
+    "updateProfile": {
+      "title": "Update Profile",
+      "text": {
+        "updateProfile": "Actualizar perfil",
+        "updateYourProfileDetails": "Actualiza detalles de tu perfil",
+        "updatePersonalInformation": "Actualiza la información personal que desees compartir con nosotros",
+        "name": "Nombre",
+        "enterYourName": "Ingresa aquí tu nombre",
+        "lastName": "Apellido",
+        "enterYourSurname": "Ingresa aquí tu apellido",
+        "keep": "Guardar",
+        "gender": "Género",
+        "enterYourGender": "Ingresa aquí tu género",
+        "preferNotToSay": "Prefiero no decirlo",
+        "feminine": "Femenino",
+        "masculine": "Masculino",
+        "dob": "Fecha de nacimiento",
+        "enterYourDateBirth": "Ingresa tu fecha de nacimiento",
+        "nameMin": "Ingresa al menos 2 caracteres",
+        "nameMax": "Máximo 25 caracteres",
+        "nameInvalid": "El nombre solo puede incluir letras, puntos y apóstrofes",
+        "surnameMin": "Ingresa al menos 2 caracteres",
+        "surnameMax": "Máximo 25 caracteres",
+        "surnameInvalid": "El apellido solo puede incluir letras, puntos y apóstrofes",
+        "genderInvalid": "El género seleccionado no es válido",
+        "dobInvalid": "Formato de fecha no válido",
+        "successMessage": "Perfil actualizado exitosamente",
+        "errorMessage": "algo salió mal"
+      }
+    },
+    "myAccount": {
+      "title": "Mi cuenta",
+      "greetingMorning": "Buenos días",
+      "greetingNoon": "Buenas tardes",
+      "greetingEvening": "Buenas noches",
+      "sectionTitle": "John123@gmail.com",
+      "options": {
+        "updateProfile": "Actualizar perfil",
+        "changePassword": "Cambiar contraseña",
+        "saved": "Guardados",
+        "myNotifications": "Mis notificaciones",
+        "recommended": "Recomendado para ti",
+        "newletter": "Newsletter",
+        "share": "Compartir app",
+        "rateApp": "Calificar app",
+        "contactUs": "Contáctanos",
+        "followUs": "Síguenos",
+        "rightToReply": "Derecho de réplica",
+        "termsConditions": "Términos y condiciones",
+        "privacyNotice": "Aviso de privacidad"
+      },
+      "logoutModal": {
+        "title": "Cerrar sesión",
+        "message": "¿Estás seguro de que quieres cerrar sesión? Deberás iniciar sesión nuevamente para acceder a tu cuenta",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "followUs": "Síguenos",
+      "logout": "Cerrar sesión",
+      "appVersion": "APP VERSION "
+    },
+    "contactUs": {
+      "title": "Contáctanos",
+      "heading": "¿Necesitas asistencia técnica?",
+      "subheading": "Escribe al servicio de soporte técnico de N+",
+      "emailTitle": "Envíanos un correo a",
+      "email": "soporteapp@nmas.com.mx",
+      "emailBody": "Hola equipo,\n\nLes escribo en relación con [describa brevemente su problema, comentario o consulta].\n\nEspero contar con su ayuda.\n\nGracias"
+    },
+    "common": {
+      "success": "Éxito",
+      "error": "Error",
+      "text": {
+        "save": "Guardar",
+        "exit": "Cancelar",
+        "continue": "Continuar"
+      },
+      "updated": {
+        "momentAgo": "Actualizado hace un momento",
+        "oneMinuteAgo": "Actualizado hace 1 minuto",
+        "minutesAgo": "Actualizado hace {{count}} minutos",
+        "oneHourAgo": "Actualizado hace 1 hora",
+        "hoursAgo": "Actualizado hace {{count}} horas",
+        "fullDate": "Actualizado {{date}}"
+      },
+      "seeMore": "Ver más ",
+      "more": "Más",
+      "live": "En Vivo"
+    },
+    "changePassword": {
+      "title": "Cambiar contraseña",
+      "text": {
+        "heading": "Configurar nueva contraseña",
+        "subHeading": "Ingresa tu nueva contraseña y confírmala para continuar",
+        "oldPassword": "Contraseña pasada",
+        "newPassword": "Nueva contraseña",
+        "confirmPassword": "Confirmar contraseña",
+        "changePasswordButton": "Cambiar contraseña",
+        "passwordChangeSuccessMessage": "Tu contraseña ha sido actualizada exitosamente"
+      }
+    },
+    "notificationSettings": {
+      "title": "Notificaciones",
+      "text": {
+        "pushTitle": "Notificaciones push",
+        "inAppTitle": "Notificaciones dentro de la app",
+        "viewAll": "Ver todos"
+      }
+    },
+    "deleteAccount": {
+      "title": "Eliminar cuenta",
+      "text": {
+        "heading": "Estás por eliminar tu cuenta:",
+        "description": "Perderás permanentemente el acceso a todo el historial asociado con esta cuenta. Ya no podrás utilizar las funciones que requieren una cuenta de N+",
+        "reasonLabel": "Cuéntanos por qué deseas eliminar tu cuenta:",
+        "reasons": {
+          "notifications": "Recibo demasiadas notificaciones o correos electrónicos",
+          "irrelevantContent": "Ya no encuentro el contenido relevante o interesante",
+          "experienceIssue": "La experiencia en la app (rendimiento/diseño) no cumple con mis expectativas",
+          "privacyConcern": "Me preocupa mi privacidad o la seguridad de mis datos",
+          "otherPlatform": "Prefiero usar otra plataforma de noticias",
+          "takingBreak": "Estoy tomando un descanso y no necesito la app en este momento",
+          "other": "Otra razón"
+        },
+        "otherReasonPlaceholder": "Escribe tu razón aquí",
+        "deleteConfirmation": "Confirmo que deseo eliminar mi cuenta de N+",
+        "deleteButton": "Eliminar cuenta"
+      }
+    },
+    "deleteAccountOtp": {
+      "title": "Agrega tu código de verificación",
+      "text": {
+        "heading": "Confirma tu correo electrónico",
+        "subHeading": "Un código de 6 dígitos ha sido enviado correctamente a tu correo electrónico:  ",
+        "incorrectCode": "Código incorrecto",
+        "resendCode": "Reenviar código en",
+        "verifyCode": "Verificar código",
+        "didntReceiveCode": "¿No recibiste el código? ",
+        "resend": "Reenviar",
+        "sendQuery": "Envía tu consulta a support@nmas.com o contáctanos al +527474734894. Estaremos encantados de ayudarte"
+      }
+    },
+    "deleteAccountOtpSuccess": {
+      "title": "Lamentamos verte partir",
+      "text": {
+        "heading": "Tu cuenta ha sido eliminada con éxito. Si decides regresar, estaremos felices de recibirte. Gracias por ser parte de nuestra comunidad",
+        "continueText": "Continuar",
+        "finish": "Finalizar"
+      }
+    },
+    "guestMyAccount": {
+      "title": "Regístrate o inicia sesión",
+      "restricted": {
+        "bookmarkTitle": "Acceda a los marcadores ahora",
+        "bookmarkMessage": "Simplemente inicie sesión o regístrese y comience a revisar sus marcadores",
+        "notificationTitle": "Accede a tus notificaciones ahora",
+        "notificationMessage": "Simplemente inicie sesión o regístrese y comience a leer notificaciones ilimitadas",
+        "recommendedTitle": "Accede a las recomendaciones ahora",
+        "recommendedMessage": "Simplemente inicie sesión o regístrese y comience a recibir recomendaciones ilimitadas",
+        "defaultTitle": "Inicie sesión para continuar",
+        "defaultMessage": "Debe iniciar sesión o registrarse para acceder a esta función",
+        "acessBookmarks": "Accede a tus marcadores",
+        "simplyLogIn": "Inicia sesión o regístrate para guardarlos y revisarlos después"
+      }
+    },
+    "forgotPasswordOtp": {
+      "title": "Restablecer contraseña",
+      "text": {
+        "heading": "Ingresa el código que te enviamos",
+        "subHeading": "Hemos enviado un código de 6 dígitos a  ",
+        "passwordUpdatedSuccess": "Tu contraseña ha sido actualizada exitosamente"
+      }
+    },
+    "authorDetails": {
+      "text": {
+        "moreFromAuthor": "Más Del Autor"
+      }
+    },
+    "jwAudioPlayer": {
+      "text": {
+        "playing": "Reproduciendo",
+        "listenToThisArticle": "Escucha este artículo: ",
+        "aiGeneratedVoice": "Este artículo se reproduce con voz generada por IA"
+      }
+    },
+    "storyPage": {
+      "author": {
+        "by": "Por",
+        "separator": "|",
+        "updatedMinutesAgo": "Actualizado hace {{count}} minutos",
+        "updatedHoursAgo": "Actualizado hace {{count}} horas",
+        "updatedFullDate": "Actualizado {{date}}",
+        "recommendedStories": "Historias Recomendadas",
+        "bookmarkUpdatedSuccessfully": "Marcador actualizado con éxito",
+        "failedToUpdateBookmark": "No se pudo actualizar el marcador"
+      },
+      "summary": {
+        "title": "Destacado"
+      },
+      "latestNews": {
+        "title": "Últimas Noticias"
+      },
+      "relatedStoryBlock": {
+        "title": "Relacionado",
+        "general": "General"
+      },
+      "heroMediaCarousel": {
+        "caption": "Foto N+"
+      }
+    },
+    "liveBlog": {
+      "title": "Liveblog",
+      "text": {
+        "liveBlogTitle": "Blog en vivo",
+        "notificationsMessage": "Recibirás notificaciones de todas las actualizaciones en vivo relacionadas con este Liveblog",
+        "notificationsStoppedMessage": "Ya no recibirás notificaciones sobre actualizaciones relacionadas con este Liveblog",
+        "notifyMe": "Notifícame",
+        "noThanks": "No, gracias",
+        "deactivate": "Desactivar",
+        "live": "En Vivo",
+        "thisIsHowWeTellYou": "Así te lo Contamos",
+        "seeAllLiveNews": "Ver todas las noticias en vivo ",
+        "seeMoreLiveblogs": "Ver más liveblogs ",
+        "errorMessage": "algo salió mal",
+        "newUpdate": "NUEVA ACTUALIZACIÓN",
+        "newUpdates": "NUEVAS ACTUALIZACIONES",
+        "liveSignal": "SEÑAL EN VIVO",
+        "endOfCoverage": "FIN DE LA COBERTURA",
+        "context": "Contexto",
+        "seeMore": "Ver más ",
+        "programming": "Programación",
+        "transmissionInProgress": "Transmisión en curso",
+        "liveBlogs": "Liveblogs",
+        "hererIsTheCompleteNote": "Aquí la nota completa"
+      }
+    },
+    "categoryTopicDetail": {
+      "moreNews": "Más noticias"
+    },
+    "jwPlayer": {
+      "text": {
+        "pictureInPicture": "Este video se está mostrando en una ventana flotante",
+        "soloAudio": "Sólo Audio",
+        "title": "Donald Trump y Migración",
+        "copyRight": "Derechos reservados Tritón Comunicaciones S.A. de C.V. prohibido su uso o reproducción total o parcial",
+        "liveTvInPictureInPicture": "Esta TV en vivo se muestra en una ventana flotante"
+      }
+    },
+    "storyPageNavigator": {
+      "text": {
+        "selectSize": "Selecciona un tamaño"
+      }
+    },
+    "topicChips": {
+      "text": {
+        "relatedTopics": "Temas relacionados",
+        "pageIsUnderDevelopment": "Esta página está en desarrollo"
+      }
+    },
+    "lexical": {
+      "text": {
+        "mediaBlock": {
+          "fallback": "[Media no disponible]"
+        },
+        "pdfBlock": {
+          "fallback": "[Archivo PDF no disponible]",
+          "viewPdf": "Ver Pdf",
+          "notAvailable": "Archivo PDF no disponible"
+        },
+        "unknownBlock": {
+          "notSupported": "[Bloque no compatible]",
+          "unknownType": "Tipo de bloque desconocido:",
+          "properties": "Propiedades:"
+        },
+        "unsupportedNode": "[No soportado: {{type}}]"
+      }
+    },
+    "bottomTab": {
+      "title": "Pestaña Inferior",
+      "text": {
+        "home": "Inicio",
+        "videos": "Videos",
+        "opinion": "Opinión",
+        "myAccount": "Mi Cuenta"
+      }
+    },
+    "link_open": "Abrir enlace",
+    "link_copy": "Copiar enlace",
+    "link_copied": "¡Enlace copiado!",
+    "stranger": "desconocido",
+    "dummyScreen": {
+      "text": {
+        "alert": "Alerta",
+        "featureAvailableSoon": "Esta funcionalidad estará disponible pronto"
+      }
+    },
+    "home": {
+      "text": {
+        "goToLiveNews": "Ir a la noticia en vivo",
+        "goToDummyHome": "Ir a la página de inicio de Dummy",
+        "opinions": "Opinión",
+        "moreOpinion": "Más opiniones",
+        "seeMore": "Ver más ",
+        "learnMore": "INFÓRMATE MÁS",
+        "seeResearch": "Ver investigación",
+        "exploreNplusFocus": "Explora N+ Focus",
+        "breakingNews": "ÚLTIMA HORA"
+      }
+    },
+    "videos": {
+      "title": "Videos",
+      "text": {
+        "exclusive": "Exclusivo de N+",
+        "continueWatching": "Continúa Viendo",
+        "programWith": "Programas Con",
+        "seeAll": "Ver todo",
+        "forPlanet": "Por el Planeta",
+        "watchDocumentaries": "Ver documentales",
+        "nPlusVideos": "N+ Videos",
+        "programNplus": "Programas",
+        "seeAllPrograms": "Ver todos los programas",
+        "watchInvestigations": "Explora N+ Focus",
+        "relatedContent": "Contenido relacionado",
+        "seeMoreProgram": "Ver más del programa",
+        "allEpisodes": "Todos los episodios",
+        "videoSavedSuccessfully": "El vídeo se guardó correctamente",
+        "videoRemovedSuccessfully": "El artículo ha sido eliminado exitosamente de tu lista",
+        "removeFromList": "Eliminar notificaciones",
+        "removeThisVideo": "¿Seguro que quieres borrar todas tus notificaciones? Esta acción no se puede deshacer.",
+        "remove": "Eliminar",
+        "videoHasBeenRemoved": "El vídeo ha sido eliminado de la lista",
+        "nPlus": "N+",
+        "nPlusFORO": "N+ FORO",
+        "moreVideos": "Más Videos",
+        "articleSavedSuccessfully": "El artículo se guardó correctamente",
+        "articleRemovedSuccessfully": "El artículo ha sido eliminado exitosamente de tu lista",
+        "allDocumentaries": "Todos los Documentales",
+        "mostViewed": "Los Más Vistos del Mes",
+        "removeVideoFromContinueWatching": "¿Seguro que quieres quitar este video de “Continúa Viendo”?",
+        "deleteFromList": "Eliminar de la lista",
+        "allPrograms": "Más programas",
+        "videoNotAvailable": "El vídeo no está disponible en esta ubicación",
+        "enableLocationPermission": "Habilite el permiso de ubicación para acceder al vídeo.",
+        "ourOriginalVideos": "Nuestros originales Videos",
+        "ourOriginalNotes": "Nuestros originales Notas",
+        "viewMore": "Ver más"
+      }
+    },
+    "program": {
+      "title": "Programas",
+      "text": {
+        "program": "Programas",
+        "allPrograms": "Todos los Programas",
+        "episodes": "Episodios",
+        "programasNplus": "Programas N+",
+        "watchLatestEpisode": "Ver el último episodio",
+        "enriqueAcevedoPrograms": "Programas de {{name}}"
+      }
+    },
+    "videoOptionsModal": {
+      "title": "Opciones de Video",
+      "text": {
+        "moreInfo": "Más información",
+        "saved": "Guardados",
+        "save": "Guardar",
+        "share": "Compartir",
+        "removeFromMyList": "Remover de mi lista"
+      }
+    },
+    "talentListing": {
+      "title": "Listado de talentos",
+      "text": {
+        "ourTeam": "Nuestro equipo"
+      }
+    },
+    "interactiveListing": {
+      "title": "Interactivos"
+    },
+    "shortInvestigations": {
+      "title": "Reportajes en Corto",
+      "text": {
+        "seeMore": "Ver más ",
+        "shortReportsRecommended": "Reportajes Recomendados"
+      }
+    },
+    "nPlusFocus": {
+      "title": "NPlus Focus",
+      "text": {
+        "startWatching": "Comenzar a ver",
+        "interactives": "Interactivos",
+        "viewInteractive": "Ver interactivo",
+        "verInteractivos": "Ver interactivos",
+        "viewInvestigation": "Todas las Investigaciones",
+        "seeAllInvestigations": "Ver investigaciones",
+        "shortReports": "Reportajes en Corto",
+        "viewAll": "Ver todos ",
+        "investigations": "Investigaciones",
+        "viewInteractiveResearch": "Ver investigación interactiva",
+        "researchBy": "Investigación por",
+        "seeMore": "Ver más",
+        "seeLess": "Ver Less",
+        "awards": "Premios",
+        "recentlyAdded": "Agregados Recientemente"
+      }
+    },
+    "forThePlanet": {
+      "title": "Por el Planeta",
+      "text": {
+        "recentlyAdded": "Agregados Recientemente"
+      }
+    },
+    "search": {
+      "title": "Buscar",
+      "text": {
+        "popularSearches": "Búsquedas Populares",
+        "recentSearches": "Búsquedas recientes",
+        "mightBeInterestedIn": "Podría Interesarte",
+        "interests": "Intereses",
+        "resultsTitle": "Resultados de la búsqueda",
+        "totalResults": "Total {{count}} resultados",
+        "mostRecent": "Más reciente",
+        "relevance": "Relevancia",
+        "voiceWelcome": "Hola, bienvenido",
+        "voicePrompt": "Intenta decir algo...",
+        "noResultsTitle": "No se encontraron resultados",
+        "noResultsSubtitle": "Intente eliminando algunos filtros",
+        "voiceDidNotUnderstand": "No te entendí, intenta hablar nuevamente",
+        "noInternetConnectionMicrophone": "No se encontró conexión a internet",
+        "permissions": {
+          "microphone": {
+            "title": "Permiso de micrófono",
+            "message": "Para usar la búsqueda por voz, activa el acceso al micrófono en la configuración de tu dispositivo"
+          },
+          "requiredTitle": "Permiso requerido",
+          "microphoneRequiredMessage": "Para usar la búsqueda por voz, activa el acceso al micrófono en la configuración de tu dispositivo"
+        },
+        "common": {
+          "askMeLater": "Pregúntame más tarde",
+          "cancel": "Cancelar",
+          "ok": "Aceptar"
+        }
+      }
+    },
+    "myNotifications": {
+      "title": "Mis notificaciones",
+      "text": {
+        "youDontHaveNotificationsYet": "Aún no tienes notificaciones",
+        "weWillLetYouKnow": "Te avisaremos en cuanto haya novedades que te interesen",
+        "deleteNotification": "Eliminar notificación",
+        "deleteNotifications": "Eliminar notificaciones",
+        "notificationOptions": "Opciones de notificaciones",
+        "seeUnread": "Ver no leídas",
+        "markAsRead": "Marcar como leído",
+        "deleteAllNotifications": "Eliminar todas las notificaciones",
+        "manageNotifications": "Administrar notificaciones",
+        "notificationDeletedSuccessfully": "Notificación eliminada exitosamente",
+        "allMarkedAsRead": "Todo ha sido marcado como leído"
+      }
+    },
+    "opinion": {
+      "screen": {
+        "title": "Opinión",
+        "recentOpinions": "Opiniones Recientes",
+        "otherOpinions": "Otras Opiniones",
+        "moreOpinions": "Más Opiniones",
+        "moreOptionsOff": "Más opciones de {{name}}"
+      }
+    },
+    "bookmarks": {
+      "title": "Guardados",
+      "empty": {
+        "title": "No hay contenido guardado",
+        "subtitle": "Marca los contenidos que te interesan para tenerlos siempre a tu alcance"
+      }
+    },
+    "pressroom": {
+      "title": "Sala de prensa"
+    },
+    "breakingNews": {
+      "text": {
+        "breakingNews": "ÚLTIMA HORA"
+      }
+    },
+    "countDownTimerWidget": {
+      "text": {
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Min",
+        "seconds": "Seg",
+        "wednesday": "Miércoles "
+      }
+    },
+    "ads": {
+      "text": {
+        "publicidad": "PUBLICIDAD",
+        "networkError": "Tenemos problemas para cargar anuncios en este momento"
+      }
+    },
+    "weatherWidget": {
+      "max": "Máx",
+      "min": "Mín",
+      "degrees": "°",
+      "windSpeed": "km/h",
+      "aqiLive": "ICA en vivo"
+    }
+  }
+}

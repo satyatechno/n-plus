@@ -1,0 +1,768 @@
+{
+  "language": "English",
+  "screens": {
+    "login": {
+      "title": "Login",
+      "text": {
+        "enterYourDetails": "Enter your details",
+        "enterYourEmailPassword": "Enter your email and password",
+        "email": "Email",
+        "password": "Password",
+        "forgotPassword": "Forgot your password?",
+        "formError": "There was a problem with loading the form. Please try again later.",
+        "emailPlaceholder": "youremail@example.com",
+        "enterPassword": "Enter password",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format.",
+        "passwordRequired": "Password is required",
+        "passwordMin": "Password must be at least 8 characters",
+        "incorrectPassword": "Incorrect password",
+        "passwordUppercase": "Must include at least one uppercase letter",
+        "passwordLowercase": "Must include at least one lowercase letter",
+        "passwordDigit": "Must include at least one number",
+        "passwordSpecialChar": "Must include at least one special character",
+        "somethingWentWrong": "Something went wrong"
+      }
+    },
+    "recommendations": {
+      "text": {
+        "header": "Interest settings",
+        "viewMore": "View more interests",
+        "viewLess": "View less interests",
+        "onboardingHeading": "Please select your interests",
+        "editHeading": "Edit your interests",
+        "onboardingSubheading": "Select 3 or more to continue and receive personalized notifications",
+        "editSubheading": "Update them to personalize your experience and receive relevant notifications. You must keep at least 3 selected."
+      },
+      "modal": {
+        "unsavedTitle": "Do you want to leave without saving?",
+        "unsavedMessage": "Changes to your interests will not be applied.\nThis action cannot be undone.",
+        "unsavedSubtitle": "Do you want to continue?"
+      }
+    },
+    "recommendedForYou": {
+      "title": "Recommended for you",
+      "text": {
+        "pleaseSelectInterests": "Select the categories you would most like to see",
+        "createEmailAndPassword": "Enter your email and create a password",
+        "skip": "Skip",
+        "continue": "Continue",
+        "keep": "Keep",
+        "noPreferencesTitle": "No preferences selected",
+        "noPreferencesSubtitle": "Select at least 3 preferences by clicking the settings icon in the upper right corner of this screen",
+        "personalizeExperienceAccordingInterests": "Personalize your experience according to your interests",
+        "weDontKnowYourInterests": "We don't know your interests",
+        "addYourInterests": "You don't have any recommendations yet.\nAdd your interests so we can give you recommendations.",
+        "enterYourInterests": "Enter your interests",
+        "resendError": "Something went wrong. Please try again",
+        "resendSuccess": "An email has been sent to your mail ID successfully"
+      }
+    },
+    "socialMediaAuth": {
+      "title": "Create your account",
+      "text": {
+        "continue": "Continue",
+        "createYourAccount": "Create your account and don't miss any news",
+        "email": "Email",
+        "placeholder": "youremail@example.com",
+        "alreadyHaveAnAccount": "Already have an account? ",
+        "signIn": "Sign In",
+        "register": "Register",
+        "emailInvalid": "Invalid email format",
+        "emailRequired": "Email is required",
+        "or": "o",
+        "welcomeBack": "Welcome back! Sign in to continue",
+        "enterYourEmail": "Enter your email address to log in",
+        "dontHaveAccount": "Don't have an account? ",
+        "goodToHaveYouBack": "Good to have you back",
+        "subtitleForDeleteAlert": "Are you sure you want to cancel the deletion of your account?\nYou have 2 days left to change your mind.",
+        "googleTitle": "Continue with Google",
+        "facebookTitle": "Continue with Facebook",
+        "appleTitle": "Continue with Apple",
+        "problemWithLoading": "There was a problem with loading the form. Please try again later.",
+        "emailAlreadyRegistered": "This email is already registered. Please log in to continue",
+        "emailNotRegistered": "This email is not registered. Please register to continue",
+        "noGoogleIdToken": "No Google ID token found. Please try again",
+        "authTokenError": "Expected authentication token, but got null",
+        "accessTokenError": "Expected access token, but got null",
+        "userCanceledTheLogin": "Login was canceled by the user",
+        "tokenInvalid": "Invalid authentication token",
+        "appleSocialLoginError": "No internet connection was found. It seems your device is not connected to the internet or a Wi-Fi connection. Please re-check or restart your network connection",
+        "cancelAppleLogin": "The app login has been cancelled",
+        "applePrivateEmailError": "Apple Sign-In failed due to configuration restrictions. Please sign up manually"
+      }
+    },
+    "notificationAlert": {
+      "title": "Notification Alert",
+      "text": {
+        "stayUpToDateWithLatestNews": "Stay up to date with the latest news",
+        "selectAlertsOfInterestAndStayUpdated": "Select alerts of your interest and stay updated",
+        "continue": "Continue",
+        "byContinuingYouAreAcceptingOur": "By continuing you are accepting our ",
+        "terms&Conditions": "Terms and Conditions,",
+        "asWellAsThe": " as well as the ",
+        "privacyPolicy": "Privacy Policy.",
+        "breakingNews": "Breaking News",
+        "editorsPicks": "Editor's Picks",
+        "originalContent": "Original Content N+",
+        "politics": "Politics",
+        "opinion": "Opinion",
+        "economy": "Economy",
+        "skip": "Skip",
+        "categoryFeatureComingSoon": "The category feature will be available soon"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "text": {
+        "configuration": "Configuration",
+        "systemAppearance": "System Appearance",
+        "systemAppearanceSubtitle": "Switch between themes based on your preference.",
+        "textSize": "Text Size",
+        "textSizeSubtitle": "Adjust the text size for a more comfortable experience.",
+        "dataUsage": "Data Usage",
+        "clearCache": "Clear cache",
+        "downloadImages": "Download images",
+        "downloadImagesDescription": "When this setting is off, images won't load to save data.",
+        "videoAutoplay": "Video Autoplay",
+        "videoAutoplaySubtitle": "Some videos play automatically in mute. Select when they should autoplay.",
+        "myNotifications": "My Notifications",
+        "manage": "Manage",
+        "notificationsDescription": "From here, you can enable push and in-app notifications.",
+        "deleteAccount": "Delete account",
+        "clearCacheModalTitle": "Do you want to clear the cache?",
+        "clearCacheModalMessage": "Clearing the cache will remove all articles, images, and recently viewed content.",
+        "clearCacheModalSubtitle": "This action cannot be undone. Do you want to continue?",
+        "cancel": "Cancel",
+        "cacheClearedSuccessfully": "Cache cleared successfully",
+        "abc": "Abc",
+        "downloadImagesTitle": "Download images",
+        "preferredTextSizeSubtitle": "Choose your preferred text size for better readability.",
+        "textSizeSystem": "Use system font",
+        "textSizeSystemDesc": "Adapts the font style to match your device's system settings.",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "setTypography": "Set Typography"
+      }
+    },
+    "createAccountPassword": {
+      "title": "Create your account",
+      "text": {
+        "heading": "Enter your information",
+        "subHeading": "Enter your email and create a password",
+        "email": "Email",
+        "password": "Password",
+        "passwordPlaceholder": "Enter password",
+        "confirmPassword": "Confirm your password",
+        "passwordMatch": "Both passwords match",
+        "passwordMismatch": "Passwords do not match",
+        "createAccount": "Create account",
+        "footerPreText": "By creating an account, you agree to the ",
+        "terms": "Terms and Conditions",
+        "footerMidText": " and the ",
+        "privacy": "Privacy Notice"
+      }
+    },
+    "validation": {
+      "passwordCriteria": {
+        "title": "Your password must meet these requirements:",
+        "length": "Must contain between 8 and 15 characters",
+        "uppercase": "Must include a capital letter",
+        "lowercase": "Must include a lowercase letter",
+        "number": "Include at least 1 number",
+        "specialCharacter": "Include at least 1 special character (@%&¡!)"
+      },
+      "email": {
+        "invalid": "Invalid email format.",
+        "required": "Email is required."
+      },
+      "password": {
+        "required": "Password is required."
+      },
+      "confirmPassword": {
+        "required": "Confirm your password.",
+        "mismatch": "Passwords do not match."
+      },
+      "form": {
+        "genericError": "There was a problem with the form. Please try again later",
+        "somethingWentWrong": "Something went wrong. Please try again."
+      },
+      "inputBox": {
+        "minCharacters": "Minimum 2 characters required",
+        "maxCharacters": "Maximum 500 characters allowed"
+      }
+    },
+    "introScreen": {
+      "title": "Intro Screen",
+      "text": {
+        "breakingNews": "Breaking News",
+        "investigation": "Investigation",
+        "opinion": "Opinion",
+        "continue": "Continue"
+      }
+    },
+    "splash": {
+      "title": "Splash",
+      "text": {
+        "decideInformed": "Decide Informed",
+        "login": "Login",
+        "signUp": "Register",
+        "continueAsGuest": "Continue as Guest",
+        "noInternet": "Something went wrong. Please try again.",
+        "noInternetConnection": "Something went wrong. Please try again",
+        "somethingWentWrongDesc": "We are facing some issues while using this app.",
+        "back": "Back"
+      }
+    },
+    "signUpOtp": {
+      "title": "Create your account",
+      "text": {
+        "heading": "Confirm your email address",
+        "subHeading": "Enter the verification code we sent to jo*********@gmail.com",
+        "incorrectCode": "Incorrect code",
+        "resendCode": "Resend code in ",
+        "verifyCode": "Verify code",
+        "didntReceiveCode": "Didn't receive the code? ",
+        "resend": "Resend",
+        "otpVerifiedSuccess": "Your account has been successfully verified"
+      }
+    },
+    "signUpOtpSuccess": {
+      "title": "Account Verified",
+      "text": {
+        "heading": "Your account has been verified successfully",
+        "continueText": "Continue"
+      }
+    },
+    "createNewPassword": {
+      "title": "Reset Password",
+      "text": {
+        "heading": "Set Your New Password",
+        "subHeading": "Enter your new password and confirm it to continue",
+        "email": "Email",
+        "password": "Password",
+        "passwordPlaceholder": "Enter password",
+        "confirmPassword": "Confirm your password",
+        "passwordMatch": "Both passwords match",
+        "passwordMismatch": "Passwords do not match",
+        "continue": "Continue",
+        "formError": "There was a problem with the form. Please try again later",
+        "footer": "By creating an account, you agree to the <terms>Terms and Conditions</terms> and the <privacy>Privacy Notice</privacy>",
+        "title": "Password Updated",
+        "subtitle": "Your password has been successfully reset",
+        "passwordDoesNotMatch": "Passwords do not match",
+        "successTitle": "Password Updated",
+        "successSubtitle": "Your password has been reset successfully"
+      }
+    },
+    "newsletters": {
+      "title": "Newsletter",
+      "text": {
+        "subscriptions": "Subscriptions",
+        "mySubscriptions": "My subscriptions",
+        "nPlusNewsletters": "N+ Newsletters",
+        "subTitle": "You're logged in as ",
+        "youCanManageYourPreferences": ". You can manage your preferences here.",
+        "subscribe": "Subscribe",
+        "unsubscribe": "Unsubscribe",
+        "unsubscribeEverything": "Unsubscribe from everything",
+        "haveNoSubscriptions.": "You currently have no active subscriptions.",
+        "stayInformed": "If you'd like to stay informed, you can subscribe at any time.",
+        "whyYouUnsubscribed": "Would you like to tell us why you unsubscribed?",
+        "sendComments": "Send feedback",
+        "thanks": "No, thanks",
+        "otherReason": "another reason",
+        "writeYourReasonHere": "Write your reason here",
+        "subscribeSuccess": "Your subscription is active. You can manage it here whenever you want",
+        "selectAtLeastOneNewsletter": "Please select at least one Newsletter",
+        "unsubscribedFromAllOurNewsletters": "You have unsubscribed from all our newsletters",
+        "unsubscribedFromThisNewsletter": "You have unsubscribed from this newsletter",
+        "notLoggedIn": "You are not logged in yet. You can manage your preferences after logging in.",
+        "emailRecieved": "You will receive the newsletter at"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "text": {
+        "forgottenPassword": "Forgotten Password",
+        "resetYourPassword": "Reset your password",
+        "enterEmailSendResetCode": "Enter your email and we'll send you a reset code",
+        "sendCode": "Send Code"
+      }
+    },
+    "updateProfile": {
+      "title": "Update Profile",
+      "text": {
+        "updateProfile": "Update Profile",
+        "updateYourProfileDetails": "Update your profile details",
+        "updatePersonalInformation": "Update your personal information you wish to share with us",
+        "name": "Name",
+        "enterYourName": "Enter your name here",
+        "lastName": "Last Name",
+        "enterYourSurname": "Enter your surname here",
+        "keep": "Keep",
+        "gender": "Gender",
+        "enterYourGender": "Enter your gender",
+        "preferNotToSay": "Prefer not to say",
+        "feminine": "Feminine",
+        "masculine": "Masculine",
+        "dob": "Birthdate",
+        "enterYourDateBirth": "Enter your date of birth",
+        "nameMin": "Please enter at least 2 characters",
+        "nameMax": "Maximum 25 characters",
+        "nameInvalid": "Name can only include letters, periods and apostrophes",
+        "surnameMin": "Please enter at least 2 characters",
+        "surnameMax": "Maximum 25 characters",
+        "surnameInvalid": "Surname can only include letters, periods and apostrophes",
+        "genderInvalid": "Selected gender is not valid",
+        "dobInvalid": "Invalid date format",
+        "successMessage": "Profile updated successfully",
+        "errorMessage": "Something went wrong. Please try again"
+      }
+    },
+    "myAccount": {
+      "title": "My Account",
+      "greetingMorning": "Good Morning",
+      "greetingNoon": "Good Noon",
+      "greetingEvening": "Good Evening",
+      "sectionTitle": "My Information",
+      "options": {
+        "updateProfile": "Update profile",
+        "changePassword": "Change password",
+        "saved": "Saved",
+        "myNotifications": "My notifications",
+        "recommended": "Recommended for you",
+        "newletter": "Newsletter",
+        "share": "Share app",
+        "rateApp": "Rate app",
+        "contactUs": "Contact us",
+        "rightToReply": "Right to reply",
+        "termsConditions": "Terms and conditions",
+        "privacyNotice": "Privacy notice"
+      },
+      "logoutModal": {
+        "title": "Log Out",
+        "message": "Are you sure you want to log out? You will need to log in again to access your account.",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "followUs": "Follow Us",
+      "logout": "Log Out",
+      "appVersion": "APP VERSION "
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "heading": "Contact us anytime",
+      "subheading": "Get the help you need, when you need it, with N+'s 24/7 support service",
+      "emailTitle": "Send us an email at",
+      "email": "contacto@nmas.com.mx",
+      "emailBody": "Hello team,\n\nI am writing to you regarding [briefly describe your problem, comment or inquiry].\n\nI hope to count on your help.\n\nThank you."
+    },
+    "common": {
+      "success": "Success",
+      "error": "Error",
+      "text": {
+        "save": "Save",
+        "exit": "Cancel",
+        "continue": "Continue"
+      },
+      "updated": {
+        "momentAgo": "Updated a moment ago",
+        "oneMinuteAgo": "Updated 1 minute ago",
+        "minutesAgo": "Updated {{count}} minutes ago",
+        "oneHourAgo": "Updated 1 hour ago",
+        "hoursAgo": "Updated {{count}} hours ago",
+        "fullDate": "Updated {{date}}"
+      },
+      "seeMore": "See More",
+      "more": "More",
+      "live": "Live"
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "text": {
+        "heading": "Set a new password",
+        "subHeading": "Enter your new password and confirm it to continue",
+        "oldPassword": "Old Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "changePasswordButton": "Change Password",
+        "passwordChangeSuccessMessage": "Your password has been successfully updated"
+      }
+    },
+    "notificationSettings": {
+      "title": "Notifications",
+      "text": {
+        "pushTitle": "Push Notifications",
+        "inAppTitle": "In-App Notifications",
+        "viewAll": "View All"
+      }
+    },
+    "deleteAccount": {
+      "title": "Delete Account",
+      "text": {
+        "heading": "You're about to delete your account:",
+        "description": "You will permanently lose access to all history associated with this account. You will no longer be able to use features that require an N+ account.",
+        "reasonLabel": "Tell us why you want to delete your account:",
+        "reasons": {
+          "notifications": "I receive too many notifications or emails.",
+          "irrelevantContent": "I no longer find the content relevant or interesting.",
+          "experienceIssue": "The app experience (performance/design) does not meet my expectations.",
+          "privacyConcern": "I'm concerned about my privacy or data security.",
+          "otherPlatform": "I prefer using another news platform.",
+          "takingBreak": "I'm taking a break and don't need the app right now.",
+          "other": "another reason"
+        },
+        "otherReasonPlaceholder": "Write your reason here",
+        "deleteConfirmation": "I confirm that I want to delete my N+ account",
+        "deleteButton": "Delete Account"
+      }
+    },
+    "deleteAccountOtp": {
+      "title": "Add your verification code",
+      "text": {
+        "heading": "Confirm your email address",
+        "subHeading": "A 6-digit code has been successfully sent to your email: ",
+        "incorrectCode": "Incorrect code",
+        "resendCode": "Resend code in ",
+        "verifyCode": "Verify code",
+        "didntReceiveCode": "Didn't receive the code? ",
+        "resend": "Resend"
+      }
+    },
+    "deleteAccountOtpSuccess": {
+      "title": "Your request to delete the account has been submitted.",
+      "text": {
+        "heading": "You can revoke it within the next 7 days by signing in with the same email.\nIf you decide to return, we're happy to have you back. Thank you for being part of our community.",
+        "button": "Continue",
+        "finish": "Finish"
+      }
+    },
+    "guestMyAccount": {
+      "title": "Register or log in",
+      "restricted": {
+        "bookmarkTitle": "Access your bookmarks now",
+        "bookmarkMessage": "Just log in or register to start reviewing your bookmarks.",
+        "notificationTitle": "Access your notifications now",
+        "notificationMessage": "Just log in or register to start reading unlimited notifications.",
+        "recommendedTitle": "Access recommendations now",
+        "recommendedMessage": "Just log in or register to start receiving unlimited recommendations.",
+        "defaultTitle": "Log in to continue",
+        "defaultMessage": "You need to log in or register to access this feature."
+      }
+    },
+    "forgotPasswordOtp": {
+      "title": "Reset Password",
+      "text": {
+        "heading": "Enter the code we sent you",
+        "subHeading": "We have sent a 6-digit code to ",
+        "passwordUpdatedSuccess": "Your password has been successfully updated"
+      }
+    },
+    "authorDetails": {
+      "text": {
+        "moreFromAuthor": "More From Author"
+      }
+    },
+    "jwAudioPlayer": {
+      "text": {
+        "playing": "Playing",
+        "listenToThisArticle:": "Listen to this article: ",
+        "aiGeneratedVoice": "This article is reproduced with AI-generated voice.",
+        "copyRight": "All rights reserved Tritón Comunicaciones S.A. de C.V. Use or reproduction in whole or in part is prohibited."
+      }
+    },
+    "storyPage": {
+      "author": {
+        "by": "By",
+        "separator": "|",
+        "updatedMinutesAgo": "Updated {{count}} minutes ago",
+        "updatedHoursAgo": "Updated {{count}} hours ago",
+        "updatedFullDate": "Updated {{date}}",
+        "recommendedStories": "Recommended Stories",
+        "bookmarkUpdatedSuccessfully": "Bookmark updated successfully",
+        "failedToUpdateBookmark": "Failed to update bookmark"
+      },
+      "summary": {
+        "title": "Summary"
+      },
+      "latestNews": {
+        "title": "Latest News"
+      },
+      "relatedStoryBlock": {
+        "title": "Related",
+        "general": "General"
+      },
+      "heroMediaCarousel": {
+        "caption": "Foto N+"
+      }
+    },
+    "liveBlog": {
+      "title": "Liveblog",
+      "text": {
+        "liveBlogTitle": "Liveblog",
+        "notificationsMessage": "You will receive notifications for all live updates related to this Liveblog",
+        "notificationsStoppedMessage": "You will no longer receive notifications about updates related to this Liveblog",
+        "notifyMe": "Notify me",
+        "noThanks": "No, thanks",
+        "deactivate": "Deactivate",
+        "live": "Live",
+        "thisIsHowWeTellYou": "This is how we tell you",
+        "seeAllLiveNews": "See all live news",
+        "seeMoreLiveblogs": "See more liveblogs",
+        "errorMessage": "Something went wrong. Please try again",
+        "newUpdate": "NEW UPDATE",
+        "newUpdates": "NEW UPDATES",
+        "liveSignal": "LIVE SIGNAL",
+        "endOfCoverage": "END OF COVERAGE",
+        "context": "Context",
+        "seeMore": "See More",
+        "programming": "Programming",
+        "transmissionInProgress": "Transmission in progress",
+        "liveBlogs": "Liveblogs",
+        "hererIsTheCompleteNote": "Here is the complete note"
+      }
+    },
+    "categoryTopicDetail": {
+      "moreNews": "More news"
+    },
+    "topicChips": {
+      "text": {
+        "relatedTopics": "Related Topics",
+        "pageIsUnderDevelopment": "This page is under development"
+      }
+    },
+    "lexical": {
+      "text": {
+        "mediaBlock": {
+          "fallback": "[Media not available]"
+        },
+        "pdfBlock": {
+          "fallback": "[PDF file not available]",
+          "viewPdf": "View Pdf",
+          "notAvailable": "PDF file not available."
+        },
+        "unknownBlock": {
+          "notSupported": "[Block not supported]",
+          "unknownType": "Unknown block type:",
+          "properties": "Properties:"
+        },
+        "unsupportedNode": "[Not supported: {{type}}]"
+      }
+    },
+    "bottomTab": {
+      "title": "Bottom Tab",
+      "text": {
+        "home": "Home",
+        "videos": "Videos",
+        "opinion": "Opinion",
+        "myAccount": "My Account"
+      }
+    },
+    "link_open": "Open Link",
+    "link_copy": "Copy Link",
+    "link_copied": "Link copied!",
+    "stranger": "stranger",
+    "dummyScreen": {
+      "text": {
+        "alert": "Alert",
+        "featureAvailableSoon": "This feature will be available soon."
+      }
+    },
+    "home": {
+      "text": {
+        "goToLiveNews": "Go To Live News",
+        "goToDummyHome": "Go To Dummy Home",
+        "opinion": "Opinion",
+        "moreOpinion": "More Opinion",
+        "seeMore": "See More",
+        "learnMore": "Learn More",
+        "seeResearch": "See Research",
+        "exploreNplusFocus": "Explore N+ Focus",
+        "breakingNews": "BREAKING NEWS"
+      }
+    },
+    "videos": {
+      "title": "Videos",
+      "text": {
+        "exclusive": "Exclusive to N+",
+        "continueWatching": "Continue Watching",
+        "programWith": "Programs With",
+        "seeAll": "See All",
+        "forPlanet": "For the Planet",
+        "watchDocumentaries": "Watch documentaries",
+        "nPlusVideos": "N+ Videos",
+        "programNplus": "Programs",
+        "seeAllPrograms": "See All Programs",
+        "watchInvestigations": "Explore N+ Focus",
+        "relatedContent": "Related Content",
+        "seeMoreProgram": "See More Program",
+        "allEpisodes": "All Episodes",
+        "videoSavedSuccessfully": "The video was saved successfully",
+        "videoRemovedSuccessfully": "The article was removed successfully from your list",
+        "removeFromMyList": "Remove from my list",
+        "removeThisVideo": "Do you want to remove this video from your list?",
+        "nPlus": "N+",
+        "nPlusFORO": "N+ FORO",
+        "moreVideos": "More Videos",
+        "allDocumentaries": "All Documentaries",
+        "mostViewed": "Most Viewed of the Month",
+        "removeVideoFromContinueWatching": "Remove this video to continue watching it?",
+        "videoNotAvailable": "Video is not available at this location",
+        "enableLocationPermission": "Please enable location permission to access the video.",
+        "ourOriginalVideos": "Our original Videos",
+        "ourOriginalNotes": "Our original Notes",
+        "viewMore": "View more"
+      }
+    },
+    "program": {
+      "title": "Programs",
+      "text": {
+        "program": "Programs",
+        "allPrograms": "All Programs",
+        "episodes": "Episodes",
+        "programasNplus": "Programs N+",
+        "watchLatestEpisode": "Watch the latest episode",
+        "enriqueAcevedoPrograms": "Programs of {{name}}"
+      }
+    },
+    "videoOptionsModal": {
+      "title": "Video Options",
+      "text": {
+        "moreInfo": "More information",
+        "saved": "Saved",
+        "save": "Save",
+        "share": "Share",
+        "removeFromMyList": "Remove from my list"
+      }
+    },
+    "talentListing": {
+      "title": "Talent Listing",
+      "text": {
+        "ourTeam": "Our team"
+      }
+    },
+    "interactiveListing": {
+      "title": "Interactive"
+    },
+    "shortInvestigations": {
+      "title": "Short Reports",
+      "text": {
+        "seeMore": "See More",
+        "shortReportsRecommended": "Recommended Reports"
+      }
+    },
+    "nPlusFocus": {
+      "title": "NPlus Focus",
+      "text": {
+        "startWatching": "Start Watching",
+        "interactives": "Interactives",
+        "viewInteractive": "View Interactive",
+        "verInteractivos": "View Interactives",
+        "viewInvestigation": "All Investigations",
+        "seeAllInvestigations": "See Investigations"
+      }
+    },
+    "forThePlanet": {
+      "title": "For the Planet",
+      "text": {
+        "recentlyAdded": "Recently Added"
+      }
+    },
+    "search": {
+      "title": "Search",
+      "text": {
+        "popularSearches": "Popular Searches",
+        "recentSearches": "Recent searches",
+        "mightBeInterestedIn": "You might be interested in",
+        "interests": "Interests",
+        "resultsTitle": "Search results",
+        "totalResults": "Total {{count}} results",
+        "mostRecent": "Most recent",
+        "relevance": "Relevance",
+        "voiceWelcome": "Hello, welcome",
+        "voicePrompt": "Try saying something...",
+        "noResultsTitle": "No results found",
+        "noResultsSubtitle": "Try removing some filters",
+        "voiceDidNotUnderstand": "I didn't understand you, try speaking again",
+        "noInternetConnectionMicrophone": "No internet connection found",
+        "permissions": {
+          "microphone": {
+            "title": "Microphone Permission",
+            "message": "To use voice search, enable microphone access in your device settings"
+          },
+          "requiredTitle": "Permission Required",
+          "microphoneRequiredMessage": "To use voice search, enable microphone access in your device settings"
+        },
+        "common": {
+          "askMeLater": "Ask Me Later",
+          "cancel": "Cancel",
+          "ok": "OK"
+        }
+      }
+    },
+    "myNotifications": {
+      "title": "My notifications",
+      "text": {
+        "youDontHaveNotificationsYet": "You don't have notifications yet",
+        "weWillLetYouKnow": "We will let you know as soon as there are updates that interest you.",
+        "deleteNotification": "Delete notification",
+        "deleteNotifications": "Delete notifications",
+        "notificationOptions": "Notification options",
+        "seeUnread": "View unread",
+        "markAsRead": "Mark as read",
+        "deleteAllNotifications": "Delete all notifications",
+        "manageNotifications": "Manage notifications",
+        "notificationDeletedSuccessfully": "Notification deleted successfully",
+        "allMarkedAsRead": "All marked as read"
+      }
+    },
+    "bookmarks": {
+      "title": "Bookmarks",
+      "empty": {
+        "title": "No saved content",
+        "subtitle": "Mark the content you are interested in to always have it at your fingertips."
+      }
+    },
+    "opinion": {
+      "screen": {
+        "title": "Opinion",
+        "recentOpinions": "Recent Opinions",
+        "otherOpinions": "Other Opinions",
+        "moreOpinions": "More Opinions",
+        "moreOptionsOff": "More options off {{name}}"
+      }
+    },
+    "pressroom": {
+      "title": "Pressroom"
+    },
+    "jwPlayer": {
+      "text": {
+        "pictureInPicture": "This video is being shown in a floating window",
+        "soloAudio": "Audio Only",
+        "title": "Donald Trump and Migration",
+        "copyRight": "All rights reserved Tritón Comunicaciones S.A. de C.V. Its total or partial use or reproduction is prohibited.",
+        "liveTvInPictureInPicture": "This live TV is being shown in a floating window."
+      }
+    },
+    "breakingNews": {
+      "text": {
+        "breakingNews": "BREAKING NEWS"
+      }
+    },
+    "ads": {
+      "text": {
+        "publicidad": "ADVERTISING",
+        "networkError": "We are having trouble loading ads at this time"
+      }
+    },
+    "weatherWidget": {
+      "max": "Max",
+      "min": "Min",
+      "degrees": "°",
+      "windSpeed": "km/h",
+      "aqiLive": "Live AQI"
+    }
+  }
+}

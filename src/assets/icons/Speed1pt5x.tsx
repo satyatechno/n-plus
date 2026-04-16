@@ -1,0 +1,19 @@
+import React from 'react';
+import Svg, { Path } from 'react-native-svg';
+
+interface Speed1pt5xProps {
+  width?: number;
+  height?: number;
+  color?: string;
+}
+
+const Speed1pt5x: React.FC<Speed1pt5xProps> = ({ width = 20, height = 9, color = '#1C1B1F' }) => (
+  <Svg width={width} height={height} viewBox="0 0 20 9" fill="none">
+    <Path
+      d="M4.1925 9V8H5.1925V9H4.1925ZM1.80775 9V1H0V0H2.80775V9H1.80775ZM12.9233 9L15.7308 4.30775L13.154 0H14.2693L16.2885 3.38275L18.3078 0H19.3848L16.827 4.26925L19.654 9H18.5385L16.2693 5.2135L14 9H12.9233ZM6.577 9V8H9.9425C10.1218 8 10.2692 7.94233 10.3848 7.827C10.5001 7.7115 10.5577 7.564 10.5577 7.3845V5.6155C10.5577 5.436 10.5001 5.2885 10.3848 5.173C10.2692 5.05767 10.1218 5 9.9425 5H6.577V0H11.5577V1H7.577V4H9.9425C10.4027 4 10.7869 4.15417 11.0953 4.4625C11.4036 4.77083 11.5577 5.15517 11.5577 5.6155V7.3845C11.5577 7.84483 11.4036 8.22917 11.0953 8.5375C10.7869 8.84583 10.4027 9 9.9425 9H6.577Z"
+      fill={color}
+    />
+  </Svg>
+);
+
+export default Speed1pt5x;

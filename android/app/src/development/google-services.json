@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "755464265193",
+    "project_id": "supernova-works",
+    "storage_bucket": "supernova-works.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755464265193:android:1677ca6d2ee2b41ff8bf78",
+        "android_client_info": {
+          "package_name": "com.nmas.supernova.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755464265193-v0imugjesdl6v28j5bgevgra20s1bvom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nmas.supernova.development",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "755464265193-cui0ub74dtmapc64nfmja6uvdqchbjue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD66LfpU0YZlIaJ7Pk87d5yu4sW8XVOKlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755464265193-cui0ub74dtmapc64nfmja6uvdqchbjue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "755464265193-4a8s5nfe941ud7481ubfacvfj7ivp289.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nmas.supernova.beta.testing"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755464265193:android:80897c98a0343f1ef8bf78",
+        "android_client_info": {
+          "package_name": "com.nmas.supernova.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755464265193-cui0ub74dtmapc64nfmja6uvdqchbjue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD66LfpU0YZlIaJ7Pk87d5yu4sW8XVOKlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755464265193-cui0ub74dtmapc64nfmja6uvdqchbjue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "755464265193-4a8s5nfe941ud7481ubfacvfj7ivp289.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nmas.supernova.beta.testing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

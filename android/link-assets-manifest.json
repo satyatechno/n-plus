@@ -1,0 +1,61 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/FranklinGothicURW-Boo.otf",
+      "sha1": "dd9ddc58e571c9c4f25f937d54520abbd0d41500"
+    },
+    {
+      "path": "src/assets/fonts/FranklinGothicURW-BooIta.otf",
+      "sha1": "410bbc69c2a6642953ed3a512bfb46f02faa5880"
+    },
+    {
+      "path": "src/assets/fonts/FranklinGothicURW-Dem.otf",
+      "sha1": "881f1efd5e0e7c5a9ec3d90ef652545224a9d4cc"
+    },
+    {
+      "path": "src/assets/fonts/FranklinGothicURW-DemIta.otf",
+      "sha1": "a0ceef2a3659f974d3870d7f6917a3ecdd9eb004"
+    },
+    {
+      "path": "src/assets/fonts/FranklinGothicURW-Med.otf",
+      "sha1": "4625a418cdb4379866ff0eada38e550a67f97f0f"
+    },
+    {
+      "path": "src/assets/fonts/FranklinGothicURW-MedIta.otf",
+      "sha1": "014ef67d5fe1557a31fe6df9b0a15dbcab343e80"
+    },
+    {
+      "path": "src/assets/fonts/Mongoose-Medium.otf",
+      "sha1": "12b7468a337a9e3d8ccb16ad4a4d01a6c0663707"
+    },
+    {
+      "path": "src/assets/fonts/NotoSerif-Bold.ttf",
+      "sha1": "01172ee03ac167cd3e7b7549e5dab5500b5b3755"
+    },
+    {
+      "path": "src/assets/fonts/NotoSerif-Regular.ttf",
+      "sha1": "2deb96461c7d99a7697ab77ecc3952d7359abfb7"
+    },
+    {
+      "path": "src/assets/fonts/NotoSerif_ExtraCondensed-Bold.ttf",
+      "sha1": "892311d2818ae2950c8cfc127ec1743d0a64318f"
+    },
+    {
+      "path": "src/assets/fonts/NotoSerif_ExtraCondensed-Medium.ttf",
+      "sha1": "009d40b4025665e88737af3f86a94aee603a5f92"
+    },
+    {
+      "path": "src/assets/fonts/NotoSerif_ExtraCondensed-Regular.ttf",
+      "sha1": "c1895afbfe6aba096c051b24cb93c81094e6f59a"
+    },
+    {
+      "path": "src/assets/fonts/Superclarendon-Light.otf",
+      "sha1": "1c4ec032d8bf07bf4640fb9db5d524f5093724f2"
+    },
+    {
+      "path": "src/assets/fonts/Superclarendon-Regular.otf",
+      "sha1": "efa1a2421463d9bc7ddd003682149a511ff6d739"
+    }
+  ]
+}
